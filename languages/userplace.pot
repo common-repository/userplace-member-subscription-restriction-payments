@@ -1,0 +1,2328 @@
+# Copyright (C) 2022 RedQ,Inc
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Userplace - Member Subscription, Restriction & Payments 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/userplace\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-05T05:32:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: userplace\n"
+
+#. Plugin Name of the plugin
+msgid "Userplace - Member Subscription, Restriction & Payments"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://redq.io/userplace"
+msgstr ""
+
+#. Description of the plugin
+#: admin-templates/welcome.php:6
+msgid "It’ll help you to monetize your site, you will able to create plans, subscriptions and restrictions that applies into view level and submission level."
+msgstr ""
+
+#. Author of the plugin
+#: includes/userplace-addons-provider.php:11
+#: includes/userplace-addons-provider.php:27
+msgid "RedQ,Inc"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://redq.io"
+msgstr ""
+
+#: admin-templates/addons.php:5
+msgid "Addons "
+msgstr ""
+
+#: admin-templates/addons.php:23
+#: includes/class-userplace-admin-scripts.php:140
+msgid "Activate"
+msgstr ""
+
+#: admin-templates/addons.php:27
+#: includes/class-userplace-admin-scripts.php:141
+msgid "Deactivate"
+msgstr ""
+
+#: admin-templates/addons.php:38
+msgid "Price: "
+msgstr ""
+
+#: admin-templates/addons.php:42
+msgid "by - "
+msgstr ""
+
+#: admin-templates/addons.php:50
+msgid "Last updated:"
+msgstr ""
+
+#: admin-templates/payment_settings.php:11
+#: includes/class-userplace-provider.php:804
+msgid "Stripe"
+msgstr ""
+
+#: admin-templates/payment_settings.php:12
+#: includes/class-userplace-provider.php:805
+msgid "Braintree"
+msgstr ""
+
+#: admin-templates/payment_settings.php:25
+#: admin-templates/payment_settings.php:33
+#: admin-templates/settings.php:33
+#: admin-templates/settings.php:41
+#: includes/class-userplace-feedback-message.php:35
+#: includes/class-userplace-feedback-message.php:43
+msgid "Settings Updated Successfully ."
+msgstr ""
+
+#: admin-templates/payment_settings.php:38
+#: admin-templates/settings.php:46
+msgid "Userplace Settings"
+msgstr ""
+
+#: admin-templates/settings.php:13
+msgid "General Messages"
+msgstr ""
+
+#: admin-templates/settings.php:14
+msgid "Feedback : Sign In"
+msgstr ""
+
+#: admin-templates/settings.php:15
+msgid "Feedback : Sign Up"
+msgstr ""
+
+#: admin-templates/settings.php:16
+msgid "Feedback : Lost Password"
+msgstr ""
+
+#: admin-templates/settings.php:17
+msgid "Feedback : Reset Password"
+msgstr ""
+
+#: admin-templates/settings.php:18
+msgid "Feedback : Change Password"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:89
+msgid "Userplace Configuration Status"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:93
+msgid "Basic Structure Setup"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:96
+msgid "Permalink Structure Change"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:98
+#: admin-templates/userplace-configuration-status.php:107
+#: admin-templates/userplace-configuration-status.php:116
+#: admin-templates/userplace-configuration-status.php:125
+#: admin-templates/userplace-configuration-status.php:138
+#: admin-templates/userplace-configuration-status.php:146
+#: admin-templates/userplace-configuration-status.php:154
+#: admin-templates/userplace-configuration-status.php:162
+#: admin-templates/userplace-configuration-status.php:170
+msgid "Done!"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:100
+#: admin-templates/userplace-configuration-status.php:109
+#: admin-templates/userplace-configuration-status.php:118
+#: admin-templates/userplace-configuration-status.php:127
+msgid "Not Configured!!"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:101
+msgid "You have to change permalinks structure to anything rather than Plain for Userplace to work properly. Change your sites permalinks structure from"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:101
+#: admin-templates/userplace-configuration-status.php:110
+msgid "here"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:105
+msgid "Payment Gateway Setup"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:110
+msgid "Please configure your payment gateway properly from"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:110
+msgid "For better understanding how to configure payment gateway you can follow"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:110
+msgid "url."
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:114
+msgid "Webhook Setup"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:119
+msgid "Please follow"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:119
+#: admin-templates/userplace-configuration-status.php:128
+msgid "this"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:119
+msgid "url to know how you can configure webhook. Webhook must be configured to generate invoices in your site which can be downloaded as pdf. After setting up webhook, please send a test webhook to complete this process."
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:123
+msgid "Membership Plan Setup"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:128
+msgid "Please go to"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:128
+msgid "url to create a Membership Plan. For better guidance please follow"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:128
+msgid " video tutorial."
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:134
+msgid "Basic Pages Setup"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:136
+msgid "Signin Page"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:140
+#: admin-templates/userplace-configuration-status.php:148
+#: admin-templates/userplace-configuration-status.php:156
+#: admin-templates/userplace-configuration-status.php:164
+#: admin-templates/userplace-configuration-status.php:172
+msgid "Does not exists!"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:144
+#: includes/class-userplace-provider.php:953
+msgid "Register Page"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:152
+msgid "Forgot Password Page"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:160
+msgid "Reset Password Page"
+msgstr ""
+
+#: admin-templates/userplace-configuration-status.php:168
+msgid "Pricing Plan Page"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:16
+msgid "Welcome to Userplace"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:24
+#: includes/class-userplace-admin-menu.php:66
+#: includes/class-userplace-admin-menu.php:67
+msgid "System Status"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:30
+msgid "WP Version: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:33
+msgid "The Recommended Minimum WP version is "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:38
+msgid "WP Memory Limit: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:40
+msgid "The Recommended Minimum WP Memory Limit is 256M"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:44
+msgid "WP Multisite: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:45
+msgid "Yes"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:46
+msgid "No"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:49
+msgid "Server Memory Limit:"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:52
+msgid "The Recommended Minimum Server Memory Limit is 256M"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:57
+msgid "PHP Version: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:60
+msgid "The Recommended Minimum PHP version is "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:65
+msgid "PHP Post Maximum Size:"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:69
+msgid "PHP Maximum Execution Time: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:73
+msgid "PHP Maximum Input Vars: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:76
+msgid "The Recommended Minimum Input Vars is 3000"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:81
+msgid "Maximum Upload Size: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:85
+msgid "Mysql Version: "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:88
+msgid "The Recommended Minimum Mysql version is 5.6.0 or greater"
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:106
+msgid "Recent Error Logs "
+msgstr ""
+
+#: admin-templates/userplace-system-status.php:111
+#: includes/generator/class-admin-column.php:29
+msgid "Copy to clipboard"
+msgstr ""
+
+#: admin-templates/welcome.php:5
+msgid "Welcome to the Userplace Membership Plugin"
+msgstr ""
+
+#: admin-templates/welcome.php:8
+msgid "Documentation"
+msgstr ""
+
+#: admin-templates/welcome.php:9
+#: includes/class-userplace-admin-menu.php:40
+#: includes/class-userplace-admin-menu.php:41
+msgid "Settings"
+msgstr ""
+
+#: includes/class-google-map.php:18
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/class-lister-integration.php:28
+#: templates/console/userplace_console_menu.php:54
+#: userplace.php:256
+msgid "Console"
+msgstr ""
+
+#: includes/class-mobile-menu-walker.php:133
+msgid "Add A Menu"
+msgstr ""
+
+#: includes/class-userplace-admin-column.php:20
+msgid "Plan Url"
+msgstr ""
+
+#: includes/class-userplace-admin-column.php:21
+#: includes/generator/class-admin-column.php:22
+#: includes/payments/billing/invoices.php:6
+msgid "Date"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:18
+msgid "Post Type"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:19
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:20
+msgid "Please select any post type you want to add this taxonomy"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:21
+msgid "Please select any post type you want to add this metabox"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:22
+msgid "Please select any taxonomy you want to add this term meta"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:23
+msgid "Enable Hierarchy"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:24
+msgid "If you want to enable the taxonomy hierarchy set true"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:25
+msgid "Post Formats"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:26
+msgid "Enable post formats into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:27
+msgid "Page Attributes"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:28
+msgid "Enable page attributes into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:29
+msgid "Revisions"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:30
+msgid "Enable revisions into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:31
+msgid "Comments"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:32
+msgid "Enable comments into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:33
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:34
+msgid "Enable custom fields into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:35
+msgid "Trackbacks"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:36
+msgid "Enable trackbacks into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:37
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:38
+msgid "Enable excerpt into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:39
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:40
+msgid "Enable thumbnail into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:41
+msgid "Author"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:42
+msgid "Enable author into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:43
+msgid "Editor"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:44
+msgid "Enable editor into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:45
+msgid "Title"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:46
+msgid "Enable title into this post."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:47
+msgid "All Items"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:48
+msgid "Singular Name"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:49
+msgid "Post Slug"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:50
+msgid "If want to change the default all items name, add the name here"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:51
+msgid "If want to change the default singular name, add the name here"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:52
+msgid "If want to change the default post slug, add the slug here"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:53
+msgid "Menu Position"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:54
+msgid "Select the post type menu position."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:55
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:56
+msgid "Select a menu icon."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:57
+msgid "Below First Separator"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:58
+msgid "Below Posts"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:59
+msgid "Below Media"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:60
+msgid "Below Links"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:61
+msgid "Below Pages"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:62
+msgid "Below Comments"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:63
+msgid "Below Second Separator"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:64
+msgid "Below Plugins"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:65
+msgid "Below Users"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:66
+msgid "Below Tools"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:67
+msgid "Below Settings"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:68
+msgid "Default Icon"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:69
+msgid "Upload Icon"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:70
+msgid "Icon Type"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:71
+msgid "Select the default icon type or upload a new."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:72
+msgid "Upload Custom Icon"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:73
+msgid "You can upload any custom image icon."
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:74
+#: includes/class-userplace-reuse-from.php:35
+msgid "Bundle Component"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:75
+#: includes/class-userplace-reuse-from.php:36
+msgid "Pick Color"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:76
+#: includes/class-userplace-reuse-from.php:37
+msgid "No result found"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:77
+#: includes/class-userplace-reuse-from.php:38
+msgid "search"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:78
+#: includes/class-userplace-reuse-from.php:39
+msgid "Open on selected hours"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:79
+#: includes/class-userplace-reuse-from.php:40
+msgid "Always open"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:80
+#: includes/class-userplace-reuse-from.php:41
+msgid "No hours available"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:81
+#: includes/class-userplace-reuse-from.php:42
+msgid "Permanently closed"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:82
+#: includes/class-userplace-reuse-from.php:43
+msgid "Monday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:83
+#: includes/class-userplace-reuse-from.php:44
+msgid "Tuesday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:84
+#: includes/class-userplace-reuse-from.php:45
+msgid "Wednesday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:85
+#: includes/class-userplace-reuse-from.php:46
+msgid "Thursday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:86
+#: includes/class-userplace-reuse-from.php:47
+msgid "Friday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:87
+#: includes/class-userplace-reuse-from.php:48
+msgid "Saturday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:88
+#: includes/class-userplace-reuse-from.php:49
+msgid "Sunday"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:89
+#: includes/class-userplace-reuse-from.php:50
+msgid "Wrong Password"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:90
+#: includes/class-userplace-reuse-from.php:51
+msgid "Password Matched"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:91
+#: includes/class-userplace-reuse-from.php:52
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:92
+#: includes/class-userplace-reuse-from.php:53
+msgid "I currently work here"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:93
+msgid "Template Design Type"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:94
+msgid "Please select the template design type"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:95
+#: includes/class-userplace-install.php:45
+#: includes/payments/class-redqfw-payment-init.php:528
+msgid "Default"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:96
+msgid "Alternative"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:108
+#: includes/class-userplace-reuse-from.php:64
+msgid "The field should not be empty"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:109
+#: includes/class-userplace-reuse-from.php:65
+msgid "The field should be email"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:110
+#: includes/class-userplace-reuse-from.php:66
+msgid "The field should be numeric"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:111
+#: includes/class-userplace-reuse-from.php:67
+msgid "The field should be Url"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:120
+msgid "General Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:121
+msgid "Header Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:122
+msgid "Background Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:123
+msgid "Banner Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:124
+msgid "Sidebar Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:125
+msgid "Footer Options"
+msgstr ""
+
+#: includes/class-userplace-admin-localize.php:126
+msgid "Copyright Options"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:22
+msgid "Welcome"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:29
+#: includes/class-userplace-admin-menu.php:30
+msgid "Userplace"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:49
+#: includes/class-userplace-admin-menu.php:50
+msgid "Payments"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:58
+#: includes/class-userplace-admin-menu.php:59
+msgid "Addons"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:74
+#: includes/class-userplace-admin-menu.php:75
+msgid "Configuration Status"
+msgstr ""
+
+#: includes/class-userplace-admin-menu.php:84
+#: includes/class-userplace-admin-menu.php:92
+#: includes/class-userplace-admin-menu.php:99
+#: includes/class-userplace-admin-menu.php:107
+#: includes/class-userplace-admin-menu.php:114
+#: includes/class-userplace-admin-menu.php:121
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-userplace-admin-scripts.php:142
+msgid "Installing..."
+msgstr ""
+
+#: includes/class-userplace-admin-scripts.php:143
+msgid "Deactivating..."
+msgstr ""
+
+#: includes/class-userplace-admin-scripts.php:144
+msgid "Activating..."
+msgstr ""
+
+#: includes/class-userplace-ajax-handler.php:69
+#: includes/class-userplace-ajax-handler.php:97
+msgid "One of the plugins is invalid."
+msgstr ""
+
+#: includes/class-userplace-ajax-handler.php:149
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/class-userplace-ajax-handler.php:268
+msgid "Listing Contact"
+msgstr ""
+
+#: includes/class-userplace-ajax-handler.php:605
+msgid "UserName or Email Already Exists or Empty"
+msgstr ""
+
+#: includes/class-userplace-ajax-handler.php:659
+msgid "Invalid UserName or Password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:18
+msgid "General Messages Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:25
+msgid "General Message : Successful Profile Update"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:27
+msgid "Profile Updated Successfully ."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:33
+msgid "General Message : Successful Settings Update"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:41
+msgid "General Message : Successful Payment Gateway Settings Update"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:49
+msgid "General Message : Comment Restriction Message"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:51
+msgid "Sorry, you are not eligible to view or post comment!"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:98
+msgid "General Messages : Sign In Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:105
+msgid "General message - After logged out"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:107
+#: templates/shortcode/login_form.php:13
+#: templates/shortcode/login_form.php:43
+#: templates/shortcode/login_form.php:56
+msgid "You have signed out. Would you like to sign in again?"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:113
+msgid "General message - lost password sent"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:115
+#: templates/shortcode/login_form.php:15
+#: templates/shortcode/login_form.php:68
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:121
+msgid "General message - password update"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:123
+#: templates/shortcode/login_form.php:16
+#: templates/shortcode/login_form.php:80
+msgid "Your password has been updated. You can sign in now."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:129
+msgid "General message - currently registered"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:131
+msgid "You have successfully registerd. Please check your email for setting up your password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:137
+msgid "General message - forget password"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:139
+#: templates/shortcode/login_form.php:18
+#: templates/shortcode/login_form.php:115
+msgid "Forgot your password?"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:147
+msgid "Feedback Messages : Sign In Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:154
+#: includes/class-userplace-feedback-message.php:270
+msgid "Error message - Empty Email/Username"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:156
+msgid "You do have an email/username, right?"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:162
+msgid "Error message - Empty Password"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:164
+#: includes/class-userplace-login-register.php:679
+#: includes/class-userplace-login-register.php:718
+msgid "You need to enter a password to login."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:170
+#: includes/class-userplace-feedback-message.php:213
+msgid "Error message - Invalid Email/Username"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:172
+#: includes/class-userplace-login-register.php:680
+msgid "Maybe you have used a different email/username during sign up!"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:178
+msgid "Error message - Incorrect Password"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:180
+#: includes/class-userplace-login-register.php:681
+msgid "The password you have entered is incorrect"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:189
+msgid "General Messages : Sign Up Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:196
+msgid "General Message : SignUp Note"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:198
+#: templates/shortcode/password_lost_form.php:5
+#: templates/shortcode/register_form.php:5
+#: templates/shortcode/register_form.php:47
+msgid "Note: Your password generation link will be sent to your email address automatically."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:206
+msgid "Feedback Messages : Sign Up Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:215
+#: includes/class-userplace-login-register.php:750
+msgid "The email address you have entered is not valid."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:221
+msgid "Error message - Email Already Exists"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:223
+#: includes/class-userplace-login-register.php:758
+msgid "An account already exists with this email address."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:229
+msgid "Error message - Username Already Exists"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:231
+msgid "An account already exists with this username."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:237
+msgid "Error message - Registering user not allowed"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:239
+#: includes/class-userplace-login-register.php:777
+msgid "Registering new user is currently not allowed."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:248
+msgid "General Messages : Lost Password Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:255
+msgid "General Messages - Lost Password"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:257
+#: templates/shortcode/password_lost_form.php:24
+msgid "Enter your email address & we will send you a link to pick a new password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:263
+msgid "Feedback Messages : Lost Password Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:272
+#: includes/class-userplace-login-register.php:690
+#: includes/class-userplace-login-register.php:787
+msgid "You need to enter your email address to continue."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:278
+msgid "Error message - Registration check"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:280
+#: includes/class-userplace-login-register.php:691
+#: includes/class-userplace-login-register.php:795
+msgid "There is no user registered with this email address."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:289
+msgid "Feedback Messages : Reset Password Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:296
+msgid "Error message - Password Reset Link"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:298
+#: includes/class-userplace-login-register.php:694
+#: includes/class-userplace-login-register.php:806
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:304
+msgid "Error message - Password Reset Mismatch"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:306
+msgid "The two passwords you entered did not match ."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:312
+msgid "Error message - Password Reset Empty"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:314
+#: includes/class-userplace-feedback-message.php:371
+#: includes/class-userplace-login-register.php:696
+#: includes/class-userplace-login-register.php:702
+msgid "Sorry, we do not accept empty passwords."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:323
+msgid "General Messages : Change Password Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:330
+msgid "General message - Change password message"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:332
+#: templates/shortcode/change_password_form.php:5
+#: templates/shortcode/change_password_form.php:28
+msgid "Your password has been changed. You can sign in now with your new password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:338
+msgid "Feedback Messages : Change Password Settings"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:345
+msgid "Error message - Password Old Mismatch"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:347
+#: includes/class-userplace-login-register.php:699
+msgid "You entered an incorrect old password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:353
+msgid "Error message - Password change name"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:355
+#: includes/class-userplace-login-register.php:700
+msgid "Your current password and new passwrod must not be same."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:361
+msgid "Error message - Password Old Empty"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:363
+#: includes/class-userplace-login-register.php:701
+msgid "Old password field is empty. Enter your current password."
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:369
+msgid "Error message - Password change empty"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:377
+msgid "Error message - Password change mismatch"
+msgstr ""
+
+#: includes/class-userplace-feedback-message.php:379
+#: includes/class-userplace-login-register.php:695
+#: includes/class-userplace-login-register.php:703
+#: includes/class-userplace-login-register.php:814
+#: includes/class-userplace-login-register.php:859
+msgid "The two passwords you entered did not match."
+msgstr ""
+
+#: includes/class-userplace-install.php:95
+msgid "User Template"
+msgstr ""
+
+#: includes/class-userplace-install.php:103
+msgid "Console Template"
+msgstr ""
+
+#: includes/class-userplace-install.php:145
+#: templates/shortcode/login_form.php:24
+#: templates/shortcode/login_form.php:103
+msgid "Sign In"
+msgstr ""
+
+#: includes/class-userplace-install.php:150
+#: templates/shortcode/register_form.php:11
+#: templates/shortcode/register_form.php:55
+msgid "Register"
+msgstr ""
+
+#: includes/class-userplace-install.php:155
+#: includes/class-userplace-provider.php:963
+#: templates/shortcode/password_lost_form.php:9
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: includes/class-userplace-install.php:160
+#: includes/class-userplace-provider.php:973
+#: templates/shortcode/change_password_form.php:10
+#: templates/shortcode/password_reset_form.php:3
+msgid "Pick a New Password"
+msgstr ""
+
+#: includes/class-userplace-install.php:165
+#: templates/handle-subscription-payment.php:2
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/class-userplace-install.php:218
+#: includes/class-userplace-install.php:231
+msgid "uMember"
+msgstr ""
+
+#: includes/class-userplace-listing.php:32
+#: includes/class-userplace-listing.php:34
+msgid "Membership Plan"
+msgstr ""
+
+#: includes/class-userplace-listing.php:44
+msgid "Template"
+msgstr ""
+
+#: includes/class-userplace-listing.php:46
+msgid "Templates"
+msgstr ""
+
+#: includes/class-userplace-listing.php:60
+msgid "Role"
+msgstr ""
+
+#: includes/class-userplace-listing.php:62
+msgid "Roles"
+msgstr ""
+
+#: includes/class-userplace-listing.php:77
+#: includes/class-userplace-listing.php:79
+msgid "Console Menu"
+msgstr ""
+
+#: includes/class-userplace-listing.php:90
+#: includes/class-userplace-listing.php:92
+msgid "Coupons"
+msgstr ""
+
+#: includes/class-userplace-listing.php:107
+msgid "Plan Page URL"
+msgstr ""
+
+#: includes/class-userplace-listing.php:117
+msgid "Plan Builder"
+msgstr ""
+
+#: includes/class-userplace-listing.php:125
+msgid "Apply Restrictions"
+msgstr ""
+
+#: includes/class-userplace-listing.php:133
+msgid "Plans Pricing Details"
+msgstr ""
+
+#: includes/class-userplace-listing.php:141
+msgid "Role Capabilities"
+msgstr ""
+
+#: includes/class-userplace-listing.php:157
+msgid "Console Menu Settings"
+msgstr ""
+
+#: includes/class-userplace-listing.php:165
+msgid "Coupon Settings"
+msgstr ""
+
+#: includes/class-userplace-listing.php:188
+#: includes/class-userplace-listing.php:198
+msgid "Restrict This"
+msgstr ""
+
+#: includes/class-userplace-listing.php:213
+msgid "Please copy this Url After saving the plan."
+msgstr ""
+
+#: includes/class-userplace-listing.php:228
+msgid "Default Plan"
+msgstr ""
+
+#: includes/class-userplace-listing.php:231
+#: includes/class-userplace-provider.php:943
+msgid "Sign In Page"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:150
+#: includes/class-userplace-login-register.php:206
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:228
+#: includes/class-userplace-login-register.php:350
+msgid "You are already signed in."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:247
+msgid "Invalid password reset link."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:293
+msgid "Hello!"
+msgstr ""
+
+#. translators: %s is replaced with "string"
+#: includes/class-userplace-login-register.php:295
+msgid "You asked us to reset your password for your account using the email address %s."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:296
+msgid "If this was a mistake, or you didn't ask for a password reset, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:297
+#: includes/userplace-payment-utility.php:739
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:299
+msgid "Thanks!"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:377
+#: includes/class-userplace-login-register.php:550
+msgid "Log out"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:490
+msgid "The given username is not valid"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:557
+#: includes/class-userplace-login-register.php:687
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:594
+msgid "You are not signed in."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:678
+#: includes/class-userplace-login-register.php:711
+msgid "You do have an email address, right?"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:684
+msgid "The email address you entered is not valid."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:685
+msgid "An account exists with this email address."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:686
+#: includes/class-userplace-login-register.php:765
+msgid "An account exists with this username."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:725
+msgid "We don't have any users with that email address. Maybe you have used a different email/username during sign up!"
+msgstr ""
+
+#. translators: %s is replaced with "ask if you forget password link"
+#: includes/class-userplace-login-register.php:735
+msgid " <a href='%s'>Did you forget your password</a>?"
+msgstr ""
+
+#. translators: %s is replaced with "forget password link"
+#: includes/class-userplace-login-register.php:738
+msgid "The password you have entered is incorrect. <a href='%s'>Did you forget your password</a>?"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:770
+msgid "The given username is not valid. No white space character is allowed"
+msgstr ""
+
+#: includes/class-userplace-login-register.php:822
+msgid "Sorry, we don't accept empty passwords."
+msgstr ""
+
+#: includes/class-userplace-login-register.php:870
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/class-userplace-nav-menu-metabox.php:129
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/class-userplace-nav-menu-metabox.php:133
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:232
+msgid "Custom Class"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:241
+msgid "Who can see this menu link?"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:250
+#: includes/class-userplace-provider.php:73
+msgid "Everyone"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:254
+msgid "Logged Out Users"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:258
+#: includes/class-userplace-provider.php:74
+msgid "Logged In Users"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:264
+#: includes/class-userplace-provider.php:55
+#: includes/class-userplace-provider.php:83
+msgid "Restricted Plans"
+msgstr ""
+
+#: includes/class-userplace-nav-menu-metabox.php:282
+msgid "Original:"
+msgstr ""
+
+#: includes/class-userplace-provider.php:25
+msgid "Coupons/Discounts Id"
+msgstr ""
+
+#: includes/class-userplace-provider.php:27
+msgid "Place coupon id created in your dashboard"
+msgstr ""
+
+#: includes/class-userplace-provider.php:69
+msgid "Public View"
+msgstr ""
+
+#: includes/class-userplace-provider.php:75
+msgid "Looged Out Users"
+msgstr ""
+
+#: includes/class-userplace-provider.php:227
+msgid "Gravater"
+msgstr ""
+
+#: includes/class-userplace-provider.php:237
+#: templates/console/user-settings-userplacefw-page.php:94
+msgid "Banner Image"
+msgstr ""
+
+#: includes/class-userplace-provider.php:247
+#: templates/console/user-settings-userplacefw-page.php:98
+#: templates/shortcode/register_form.php:33
+msgid "First name"
+msgstr ""
+
+#: includes/class-userplace-provider.php:257
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-userplace-provider.php:268
+msgid "Gender"
+msgstr ""
+
+#: includes/class-userplace-provider.php:269
+msgid "Select your gender"
+msgstr ""
+
+#: includes/class-userplace-provider.php:275
+msgid "Male"
+msgstr ""
+
+#: includes/class-userplace-provider.php:276
+msgid "Female"
+msgstr ""
+
+#: includes/class-userplace-provider.php:277
+msgid "Other"
+msgstr ""
+
+#: includes/class-userplace-provider.php:285
+msgid "Date of birth"
+msgstr ""
+
+#: includes/class-userplace-provider.php:286
+msgid "Insert date of birth ( YYYY-MM-DD )"
+msgstr ""
+
+#: includes/class-userplace-provider.php:294
+msgid "Website URI"
+msgstr ""
+
+#: includes/class-userplace-provider.php:303
+#: templates/console/user-settings-userplacefw-page.php:112
+msgid "Description About You"
+msgstr ""
+
+#: includes/class-userplace-provider.php:314
+msgid "Designation"
+msgstr ""
+
+#: includes/class-userplace-provider.php:325
+#: templates/console/user-settings-userplacefw-page.php:118
+msgid "Facebook URI"
+msgstr ""
+
+#: includes/class-userplace-provider.php:336
+#: templates/console/user-settings-userplacefw-page.php:122
+msgid "Twitter URI"
+msgstr ""
+
+#: includes/class-userplace-provider.php:347
+msgid "Google+ URI"
+msgstr ""
+
+#: includes/class-userplace-provider.php:358
+#: templates/console/user-settings-userplacefw-page.php:130
+msgid "Instagram URI"
+msgstr ""
+
+#: includes/class-userplace-provider.php:369
+msgid "Company Name"
+msgstr ""
+
+#: includes/class-userplace-provider.php:381
+msgid "Timezone"
+msgstr ""
+
+#: includes/class-userplace-provider.php:385
+msgid "Select your timezone"
+msgstr ""
+
+#: includes/class-userplace-provider.php:397
+msgid "Work Location"
+msgstr ""
+
+#: includes/class-userplace-provider.php:409
+msgid "Please Set Google Map API Key from Settings"
+msgstr ""
+
+#: includes/class-userplace-provider.php:419
+#: templates/console/user-settings-userplacefw-page.php:167
+msgid "Update Profile"
+msgstr ""
+
+#: includes/class-userplace-provider.php:435
+msgid "Select Posttypes for this Plan"
+msgstr ""
+
+#: includes/class-userplace-provider.php:442
+msgid "Base Listing Rate in $"
+msgstr ""
+
+#: includes/class-userplace-provider.php:443
+msgid "Base Listing Rate"
+msgstr ""
+
+#: includes/class-userplace-provider.php:449
+msgid "Enter Currency Symbol (ex. $)"
+msgstr ""
+
+#: includes/class-userplace-provider.php:450
+msgid "Enter Currency Symbol"
+msgstr ""
+
+#: includes/class-userplace-provider.php:456
+msgid "Per Media Rate in $"
+msgstr ""
+
+#: includes/class-userplace-provider.php:458
+msgid "Rate Per Media"
+msgstr ""
+
+#: includes/class-userplace-provider.php:464
+msgid "Expired in Days"
+msgstr ""
+
+#: includes/class-userplace-provider.php:473
+msgid " On Subscription Expired Listing Status"
+msgstr ""
+
+#: includes/class-userplace-provider.php:483
+msgid "Term Specific Cost"
+msgstr ""
+
+#: includes/class-userplace-provider.php:489
+msgid " Select Term"
+msgstr ""
+
+#: includes/class-userplace-provider.php:496
+msgid "Cost of this Term"
+msgstr ""
+
+#: includes/class-userplace-provider.php:505
+msgid "Rate Per Term"
+msgstr ""
+
+#: includes/class-userplace-provider.php:541
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-userplace-provider.php:548
+msgid "Enable/Disable This Plan"
+msgstr ""
+
+#: includes/class-userplace-provider.php:555
+msgid "Make This a Default Plan"
+msgstr ""
+
+#: includes/class-userplace-provider.php:588
+msgid "Plan Price"
+msgstr ""
+
+#: includes/class-userplace-provider.php:589
+msgid "This price will be same as your payment gateway plan price ."
+msgstr ""
+
+#: includes/class-userplace-provider.php:596
+msgid "Select Role For this plan"
+msgstr ""
+
+#: includes/class-userplace-provider.php:597
+msgid "This will set as user role after purchasing the plan. Please select the role wisely. You can just keep userplace_member. You can also change the role capabilities or create a new one from role menu."
+msgstr ""
+
+#: includes/class-userplace-provider.php:606
+msgid "Select Coupon for this plan"
+msgstr ""
+
+#: includes/class-userplace-provider.php:607
+msgid "Please create coupon from the coupon menu, and add it into the plan."
+msgstr ""
+
+#: includes/class-userplace-provider.php:616
+msgid "Apply View Level Restrictions"
+msgstr ""
+
+#: includes/class-userplace-provider.php:623
+msgid "GLOBAL: Post Restriction"
+msgstr ""
+
+#: includes/class-userplace-provider.php:625
+msgid "Please select post type, where you want to add restriction capabilities"
+msgstr ""
+
+#: includes/class-userplace-provider.php:633
+msgid " Enable Single Post Restriction"
+msgstr ""
+
+#: includes/class-userplace-provider.php:647
+msgid " Select Single Restricted Post Types"
+msgstr ""
+
+#: includes/class-userplace-provider.php:648
+msgid "Member under this plan will be able to restrict this post for any user.(only his own listings)"
+msgstr ""
+
+#: includes/class-userplace-provider.php:657
+msgid "Comment Restrictions"
+msgstr ""
+
+#: includes/class-userplace-provider.php:658
+msgid "Member under this plan will not have any access to the comment section of these post types"
+msgstr ""
+
+#: includes/class-userplace-provider.php:668
+msgid "Widgets Restrictions"
+msgstr ""
+
+#: includes/class-userplace-provider.php:669
+msgid "Member under this plan will not have any access to these widgets"
+msgstr ""
+
+#: includes/class-userplace-provider.php:681
+msgid "Submission Restrictions"
+msgstr ""
+
+#: includes/class-userplace-provider.php:688
+msgid " Enable/Disable"
+msgstr ""
+
+#: includes/class-userplace-provider.php:696
+msgid " Allow Unlimited "
+msgstr ""
+
+#: includes/class-userplace-provider.php:697
+msgid "Member under this plan will able to create unlimited "
+msgstr ""
+
+#: includes/class-userplace-provider.php:705
+msgid " Show View Resctriction Metabox"
+msgstr ""
+
+#: includes/class-userplace-provider.php:706
+msgid "Member under this plan will able to limit view level restriction of his "
+msgstr ""
+
+#: includes/class-userplace-provider.php:714
+msgid " Max "
+msgstr ""
+
+#: includes/class-userplace-provider.php:715
+msgid "Member under this plan will able to create maximum number of "
+msgstr ""
+
+#: includes/class-userplace-provider.php:725
+msgid " Max Terms per "
+msgstr ""
+
+#: includes/class-userplace-provider.php:726
+msgid "Member under this plan will able to select maximum number of terms for "
+msgstr ""
+
+#: includes/class-userplace-provider.php:737
+#: includes/class-userplace-provider.php:758
+msgid "Member under this plan will not be able to create any "
+msgstr ""
+
+#: includes/class-userplace-provider.php:757
+msgid " Restricted Terms"
+msgstr ""
+
+#: includes/class-userplace-provider.php:767
+msgid " On Subscription Expired "
+msgstr ""
+
+#: includes/class-userplace-provider.php:800
+msgid "Please select a payment gateway"
+msgstr ""
+
+#: includes/class-userplace-provider.php:817
+#: includes/class-userplace-provider.php:866
+msgid "Set Payment Mode"
+msgstr ""
+
+#: includes/class-userplace-provider.php:821
+msgid "Live"
+msgstr ""
+
+#: includes/class-userplace-provider.php:822
+msgid "Test"
+msgstr ""
+
+#: includes/class-userplace-provider.php:834
+msgid "Live Stripe API Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:842
+msgid "Live Stripe Secret Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:850
+msgid "Test Stripe API Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:858
+msgid "Test Stripe Secret Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:883
+msgid "SandBox Braintree Merchant ID"
+msgstr ""
+
+#: includes/class-userplace-provider.php:891
+msgid "SandBox Braintree API Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:899
+msgid "SandBox Braintree API Secret"
+msgstr ""
+
+#: includes/class-userplace-provider.php:907
+msgid "Production Braintree Merchant ID"
+msgstr ""
+
+#: includes/class-userplace-provider.php:915
+msgid "Production Braintree API Key"
+msgstr ""
+
+#: includes/class-userplace-provider.php:923
+msgid "Production Braintree API Secret"
+msgstr ""
+
+#: includes/class-userplace-provider.php:937
+msgid "Please select appropriate pages"
+msgstr ""
+
+#: includes/class-userplace-provider.php:947
+#: includes/class-userplace-provider.php:954
+#: includes/class-userplace-provider.php:964
+#: includes/class-userplace-provider.php:974
+#: includes/class-userplace-provider.php:985
+msgid "Select a page..."
+msgstr ""
+
+#: includes/class-userplace-provider.php:976
+msgid "This page will appear after the forget password call."
+msgstr ""
+
+#: includes/class-userplace-provider.php:984
+msgid "Pricing Plan Page (Optional)"
+msgstr ""
+
+#: includes/class-userplace-provider.php:986
+msgid "Please select your pricing plan page. It will be your default pricing page."
+msgstr ""
+
+#: includes/generator/class-admin-column.php:21
+msgid "Shortcode"
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:112
+msgid "Add New "
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:113
+msgid "Edit "
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:115
+msgid "All "
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:116
+msgid "View "
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:117
+msgid "Search "
+msgstr ""
+
+#: includes/generator/class-userplace-post-type.php:118
+#: includes/generator/class-userplace-post-type.php:119
+msgid "No "
+msgstr ""
+
+#: includes/icons/dashicons.php:9
+msgid "Dashicons"
+msgstr ""
+
+#: includes/icons/fontawesome.php:8
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/icons/ionicons.php:8
+msgid "Ionicons"
+msgstr ""
+
+#: includes/payments/billing/card.php:8
+msgid "Payment "
+msgstr ""
+
+#: includes/payments/billing/card.php:12
+msgid "Card No "
+msgstr ""
+
+#: includes/payments/billing/card.php:13
+msgid "Expiration "
+msgstr ""
+
+#: includes/payments/billing/card.php:14
+msgid "Next payment "
+msgstr ""
+
+#: includes/payments/billing/card.php:19
+#: includes/payments/class-redqfw-payment-init.php:505
+#: templates/shortcode/userplace_user_quick_contact.php:47
+msgid "Submit"
+msgstr ""
+
+#: includes/payments/billing/card.php:20
+msgid "Update"
+msgstr ""
+
+#: includes/payments/billing/invoices.php:2
+msgid "Payment history "
+msgstr ""
+
+#: includes/payments/billing/invoices.php:5
+msgid "ID "
+msgstr ""
+
+#: includes/payments/billing/invoices.php:7
+#: includes/payments/billing/plan.php:17
+msgid "Amount "
+msgstr ""
+
+#: includes/payments/billing/invoices.php:8
+msgid "Currency "
+msgstr ""
+
+#: includes/payments/billing/invoices.php:27
+msgid "No Transactions available!"
+msgstr ""
+
+#: includes/payments/billing/plan.php:9
+msgid "Billing Overview "
+msgstr ""
+
+#: includes/payments/billing/plan.php:13
+msgid "Current plan "
+msgstr ""
+
+#: includes/payments/billing/plan.php:28
+msgid "Status "
+msgstr ""
+
+#: includes/payments/billing/plan.php:37
+msgid "Change"
+msgstr ""
+
+#: includes/payments/billing/plan.php:39
+msgid "Buy Plan"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:30
+msgid "Invoice "
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:91
+msgid "Invoice #"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:92
+msgid "Client:"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:93
+msgid "Date:"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:97
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:98
+msgid "Plan"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:99
+msgid "Card"
+msgstr ""
+
+#: includes/payments/class-pdf-invoice.php:100
+msgid "Total"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:91
+#: includes/payments/class-redqfw-payment-init.php:92
+msgid "Buy This Plan"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:120
+msgid "Congrats! You are already subscribed to current plan."
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:129
+msgid "Switch Now"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:146
+msgid "Start Free Plan"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:150
+msgid "You are already subscribed to "
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:150
+msgid " Plan"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:155
+msgid "Please select a plan before enter this page"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:160
+msgid "please login first to buy this plan"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:181
+msgid "This is a pay as you go process and you are going to charge"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:221
+msgid "Opps!! Amount can not be null or less that 20 cent."
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:225
+msgid "Pay Now"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:226
+msgid "Click here to pay"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:375
+msgid "Sorry, There is problem"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:437
+msgid "Your Card is updated successfully"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:506
+msgid "Add New Card"
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:560
+msgid "You are not subscribed."
+msgstr ""
+
+#: includes/payments/class-redqfw-payment-init.php:581
+msgid "Remaining"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:5
+msgid "Userplace VC Addons"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:7
+#: includes/userplace-addons-provider.php:20
+msgid "Free"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:8
+msgid "Visual composer support addons for Userplace shortcode"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:14
+#: includes/userplace-addons-provider.php:28
+msgid "Download"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:19
+msgid "Userplace Google reCAPTCHA"
+msgstr ""
+
+#: includes/userplace-addons-provider.php:22
+msgid "Google reCAPTCHA validation on user registration"
+msgstr ""
+
+#: includes/userplace-payment-utility.php:348
+msgid "No Coupon Applied"
+msgstr ""
+
+#: includes/userplace-payment-utility.php:722
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+
+#: includes/userplace-payment-utility.php:735
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: includes/userplace-payment-utility.php:738
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/userplace-payment-utility.php:780
+msgid "The email could not be sent."
+msgstr ""
+
+#: includes/userplace-payment-utility.php:780
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: templates/archive-template.php:25
+#: templates/single-template.php:25
+msgid "Sorry, you are not allowed to view this page."
+msgstr ""
+
+#: templates/comments.php:6
+msgid "Sorry You are not eligible to view or post comment!"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:72
+msgid "Basic Info"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:75
+msgid "Bio"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:78
+#: templates/shortcode/userplace_user_main_profile.php:179
+msgid "Social"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:81
+msgid "Location"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:88
+msgid "Avatar"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:89
+msgid "Cover Image"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:93
+msgid "Cover"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:102
+#: templates/shortcode/register_form.php:38
+msgid "Last name"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:108
+msgid "Website Url"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:126
+msgid "Reddit URI"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:134
+msgid "Pinterest URI"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:138
+msgid "LinkedIn URI"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:149
+#: templates/shortcode/user_location_map_input.php:36
+msgid "Country"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:153
+#: templates/shortcode/user_location_map_input.php:40
+msgid "City"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:157
+#: templates/shortcode/user_location_map_input.php:44
+msgid "Latitude"
+msgstr ""
+
+#: templates/console/user-settings-userplacefw-page.php:161
+#: templates/shortcode/user_location_map_input.php:48
+msgid "Longitude"
+msgstr ""
+
+#: templates/console/userplace_console_header.php:8
+msgid "Console page"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:33
+msgid "Back to Home"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:106
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:111
+msgid "Billing"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:116
+#: templates/shortcode/change_password_form.php:48
+msgid "Change Password"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:136
+#: templates/console/userplace_console_menu.php:141
+msgid "User"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:147
+msgid "View Profile"
+msgstr ""
+
+#: templates/console/userplace_console_menu.php:156
+msgid "Logout"
+msgstr ""
+
+#: templates/handle-subscription-payment.php:10
+msgid "You are the admin of the site so you can not buy plans. For testing purpose, please register as a new user."
+msgstr ""
+
+#: templates/handle-subscription-payment.php:12
+msgid "For choosing any plan, please login first"
+msgstr ""
+
+#: templates/notice/post-restriction-notice.php:2
+msgid "Sorry this post has been Drafted due to lack of facility in your Subscription"
+msgstr ""
+
+#: templates/notice/post-restriction-notice.php:19
+msgid "Sorry you can not add listing in your subscription"
+msgstr ""
+
+#: templates/shortcode/billing_overview.php:23
+#: templates/shortcode/userplace_billing_details.php:23
+msgid "Billing Overview"
+msgstr ""
+
+#: templates/shortcode/billing_overview.php:24
+msgid " You are not currently with any plan."
+msgstr ""
+
+#: templates/shortcode/change_password_form.php:35
+msgid "Old password"
+msgstr ""
+
+#: templates/shortcode/change_password_form.php:39
+msgid "New password"
+msgstr ""
+
+#: templates/shortcode/change_password_form.php:43
+msgid "Repeat new password"
+msgstr ""
+
+#: templates/shortcode/login_form.php:14
+msgid "You have to signin if you want to access this page."
+msgstr ""
+
+#: templates/shortcode/login_form.php:17
+#: templates/shortcode/login_form.php:93
+msgid "You have successfully registered. Please check your email for setting up your password."
+msgstr ""
+
+#: templates/shortcode/login_form.php:102
+msgid "Username/Email Address"
+msgstr ""
+
+#: templates/shortcode/login_form.php:123
+msgid "Don't have any account? Register Here."
+msgstr ""
+
+#: templates/shortcode/password_lost_form.php:34
+msgid "Enter Your Email/Username"
+msgstr ""
+
+#: templates/shortcode/password_lost_form.php:37
+#: templates/shortcode/password_reset_form.php:28
+msgid "Reset Password"
+msgstr ""
+
+#: templates/shortcode/password_reset_form.php:19
+msgid "Set password"
+msgstr ""
+
+#: templates/shortcode/password_reset_form.php:23
+msgid "Confirm password"
+msgstr ""
+
+#: templates/shortcode/register_form.php:24
+msgid "Username"
+msgstr ""
+
+#: templates/shortcode/register_form.php:28
+#: templates/shortcode/userplace_user_quick_contact.php:44
+msgid "Email"
+msgstr ""
+
+#: templates/shortcode/register_form.php:63
+msgid "Already have an account? Login Here."
+msgstr ""
+
+#: templates/shortcode/userplace_billing_details.php:24
+msgid " You are not currently with any plan. "
+msgstr ""
+
+#: templates/shortcode/userplace_invoices.php:25
+msgid "Invoices"
+msgstr ""
+
+#: templates/shortcode/userplace_invoices.php:26
+msgid " No Invoices Yet!"
+msgstr ""
+
+#: templates/shortcode/userplace_plan_button.php:22
+msgid "Select Plan"
+msgstr ""
+
+#: templates/shortcode/userplace_plan_button.php:23
+msgid "Switch Plan"
+msgstr ""
+
+#: templates/shortcode/userplace_plan_button.php:24
+msgid "Current Plan"
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:87
+msgid " User Profile "
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:97
+#: templates/shortcode/userplace_profile_widget.php:103
+msgid " Job "
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:98
+#: templates/shortcode/userplace_user_main_profile.php:117
+#: templates/shortcode/userplace_user_main_profile.php:143
+msgid " at "
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:112
+msgid " Date of Birth "
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:119
+msgid " Address "
+msgstr ""
+
+#: templates/shortcode/userplace_profile_widget.php:129
+msgid " View Details "
+msgstr ""
+
+#: templates/shortcode/userplace_restrict_content.php:27
+#: templates/shortcode/userplace_restrict_content.php:39
+msgid "The content is restricted. Please upgrade your plan to view this."
+msgstr ""
+
+#: templates/shortcode/userplace_user_bio.php:20
+msgid "Your Title Here"
+msgstr ""
+
+#: templates/shortcode/userplace_user_location_map.php:22
+msgid "Position"
+msgstr ""
+
+#: templates/shortcode/userplace_user_main_profile.php:162
+msgid " About Me "
+msgstr ""
+
+#: templates/shortcode/userplace_user_main_profile.php:168
+msgid "Gender : "
+msgstr ""
+
+#: templates/shortcode/userplace_user_main_profile.php:171
+msgid "Date of birth :  "
+msgstr ""
+
+#: templates/shortcode/userplace_user_main_profile.php:174
+msgid "Timezone : "
+msgstr ""
+
+#: templates/shortcode/userplace_user_main_profile.php:211
+msgid "Edit"
+msgstr ""
+
+#: templates/shortcode/userplace_user_quick_contact.php:20
+msgid "Quick Contact"
+msgstr ""
+
+#: templates/shortcode/userplace_user_quick_contact.php:42
+msgid "Name"
+msgstr ""
+
+#: templates/shortcode/userplace_user_quick_contact.php:43
+msgid "Author email"
+msgstr ""
+
+#: templates/shortcode/userplace_user_quick_contact.php:46
+msgid "Your Comment"
+msgstr ""
+
+#: templates/shortcode/userplace_welcome_message.php:25
+msgid "Congratz!! You have successfully subscribed."
+msgstr ""
+
+#: templates/shortcode/user_location_map_input.php:13
+msgid "\"Listing Location\" is a very important information section. This section setup the geolocation of your listing for the users to view the correct direction on the map.Please, Do not skip this field."
+msgstr ""
+
+#: templates/shortcode/user_location_map_input.php:31
+msgid "Type in an address"
+msgstr ""
+
+#: userplace.php:73
+msgid " Profile"
+msgstr ""

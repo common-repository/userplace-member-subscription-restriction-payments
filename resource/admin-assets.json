@@ -1,0 +1,35 @@
+{
+  "userplace_settings": {
+    "js": "userplace_settings_a80737.js"
+  },
+  "userplace_payment_settings": {
+    "js": "userplace_payment_settings_361df8.js"
+  },
+  "userplace_payment_plan_restrictions": {
+    "js": "userplace_payment_plan_restrictions_3b63d5.js"
+  },
+  "userplace_payment_template_settings": {
+    "js": "userplace_payment_template_settings_b2941f.js"
+  },
+  "userplace_add_role": {
+    "js": "userplace_add_role_151ce2.js"
+  },
+  "userplace_restrictions_settings": {
+    "js": "userplace_restrictions_settings_92466a.js"
+  },
+  "userplace_payasugo": {
+    "js": "userplace_payasugo_30cc05.js"
+  },
+  "userplace_gateway_plan": {
+    "js": "userplace_gateway_plan_acfb80.js"
+  },
+  "userplace_coupon": {
+    "js": "userplace_coupon_158429.js"
+  },
+  "userplace_console_menu_settings": {
+    "js": "userplace_console_menu_settings_f4759c.js"
+  },
+  "userplace_adons": {
+    "js": "userplace_adons_d3afce.js"
+  }
+}

@@ -1,0 +1,102 @@
+/* #3 Preview/Logic/Settings Wrapper for builder */
+.scwpFormSettingsMainWrapper{
+  width: calc(~"100% - 250px");
+  display: flex;
+  // overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: @scwp-var-light-gray-color;
+  // background-color: #fff;
+  .scwp--border-radius(0);
+
+
+  /* #4 Panel Heading Wrapper */
+  .scwpPanelHeadingWrapper{
+    justify-content: flex-end;
+    padding: 0 0 0 35px;
+    // margin-left: 0;
+    .scwp--border-radius(0);
+  }
+  /* #4 End */
+
+  .scwpSearchComponent{
+    width: 100%;
+    padding: 20px;
+
+    .scwpSearchBar{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      border: 1px solid @scwp-var-border-color;
+
+      input{
+        width: 100%;
+        height: 42px;
+        padding: 0 15px;
+        line-height: 40px;
+        font-size: @scwp-var-font-size;
+        font-weight: 700;
+        color: @scwp-var-text-color;
+        font-weight: 400;
+        border: 0;
+        .scwp--drop-shadow(none);
+      }
+
+      button{
+        width: 40px;
+        height: 42px;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flex;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+
+        &:before{
+          content: '\f2d7';
+          font-family: 'ionicons';
+          font-size: @scwp-var-font-size;
+          color: @scwp-var-text-color;
+          .scwp--transition
+        }
+
+        &:hover{
+          &:before{
+            color: @scwp-var-color-deep-blue;
+          }
+        }
+      }
+    }
+  }
+
+  /*  #8 Wrapper for Settings Option */
+  .scwpFormSettingsWrapper{
+    width: 100%;
+    height: 100%;
+    // height: auto;
+    padding: 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // overflow-y: scroll;
+
+    /*  #9 Settigns Panel */
+    @import './settings-console.less';
+
+    .scwpFormSettings{
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .scwpFormBody{
+      padding: 20px 20px 0;
+    }
+
+  }
+  /* #8 End*/
+}
+/* #3 End */

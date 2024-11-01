@@ -1,0 +1,1972 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Userplace - Member Subscription, Restriction & Payments\n"
+"POT-Creation-Date: 2018-06-24 18:31+0600\n"
+"PO-Revision-Date: 2018-06-24 18:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: userplace.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin-templates/addons.php:3
+msgid "Addons "
+msgstr "Berichttype"
+
+#: admin-templates/addons.php:22 includes/class-userplace-admin-scripts.php:130
+msgid "Activate"
+msgstr "Activeren"
+
+#: admin-templates/addons.php:26 includes/class-userplace-admin-scripts.php:131
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: admin-templates/addons.php:37
+msgid "Price: "
+msgstr "Prijs:"
+
+#: admin-templates/addons.php:41
+msgid "by - "
+msgstr "door"
+
+#: admin-templates/addons.php:51
+msgid "Last updated:"
+msgstr "Laatst bijgewerkt op:"
+
+#: admin-templates/payment_settings.php:11
+#: includes/class-userplace-provider.php:1210
+msgid "Stripe"
+msgstr "Stripe"
+
+#: admin-templates/payment_settings.php:12
+#: includes/class-userplace-provider.php:1211
+msgid "Braintree"
+msgstr "Braintree"
+
+#: admin-templates/payment_settings.php:24 admin-templates/settings.php:26
+msgid "Userplace Settings"
+msgstr "Instellingen gebruikersinstellingen"
+
+#: admin-templates/welcome.php:8
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/class-userplace-admin-column.php:20
+msgid "Plan Url"
+msgstr "Pagina URL"
+
+#: includes/class-userplace-admin-column.php:21
+#: includes/generator/class-admin-column.php:19
+#: includes/payments/billing/invoices.php:6
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-userplace-admin-localize.php:15
+msgid "Post Type"
+msgstr "Berichttype"
+
+#: includes/class-userplace-admin-localize.php:16
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: includes/class-userplace-admin-localize.php:17
+msgid "Please select any post type you want to add this taxonomy"
+msgstr "Selecteer elk bericht dat u wilt deze taxonomie toe te voegen"
+
+#: includes/class-userplace-admin-localize.php:18
+msgid "Please select any post type you want to add this metabox"
+msgstr "Selecteer elk bericht dat u wilt deze taxonomie toe te voegen"
+
+#: includes/class-userplace-admin-localize.php:19
+msgid "Please select any taxonomy you want to add this term meta"
+msgstr "Selecteer de taxonomie wilt u deze term meta toevoegen"
+
+#: includes/class-userplace-admin-localize.php:20
+msgid "Enable Hierarchy"
+msgstr "inschakelen Hiërarchie"
+
+#: includes/class-userplace-admin-localize.php:21
+msgid "If you want to enable the taxonomy hierarchy set true"
+msgstr ""
+"Als u wilt dat de taxonomie hiërarchie te stellen waar mogelijk te maken"
+
+#: includes/class-userplace-admin-localize.php:22
+msgid "Post Formats"
+msgstr "Berichten formaten"
+
+#: includes/class-userplace-admin-localize.php:23
+msgid "Enable post formats into this post."
+msgstr "Schakel na formats in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:24
+msgid "Page Attributes"
+msgstr "Pagina Attributen"
+
+#: includes/class-userplace-admin-localize.php:25
+msgid "Enable page attributes into this post."
+msgstr "Inschakelen pagina attributen in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:26
+msgid "Revisions"
+msgstr "Revisies"
+
+#: includes/class-userplace-admin-localize.php:27
+msgid "Enable revisions into this post."
+msgstr "Schakel wijzigingen in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:28
+msgid "Comments"
+msgstr "Reacties"
+
+#: includes/class-userplace-admin-localize.php:29
+msgid "Enable comments into this post."
+msgstr "Reacties inschakelen in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:30
+msgid "Custom Fields"
+msgstr "Aangepaste Velden"
+
+#: includes/class-userplace-admin-localize.php:31
+msgid "Enable custom fields into this post."
+msgstr "Inschakelen aangepaste velden in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:32
+msgid "Trackbacks"
+msgstr "Verstuur Trackbacks"
+
+#: includes/class-userplace-admin-localize.php:33
+msgid "Enable trackbacks into this post."
+msgstr "Schakel trackbacks in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:34
+msgid "Excerpt"
+msgstr "Uittreksel"
+
+#: includes/class-userplace-admin-localize.php:35
+msgid "Enable excerpt into this post."
+msgstr "Schakel uittreksel in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:36
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: includes/class-userplace-admin-localize.php:37
+msgid "Enable thumbnail into this post."
+msgstr "Schakel de miniatuur in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:38
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/class-userplace-admin-localize.php:39
+msgid "Enable author into this post."
+msgstr "Schakel auteur in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:40
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/class-userplace-admin-localize.php:41
+msgid "Enable editor into this post."
+msgstr "Schakel editor in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:42
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class-userplace-admin-localize.php:43
+msgid "Enable title into this post."
+msgstr "Schakel titel in dit bericht."
+
+#: includes/class-userplace-admin-localize.php:44
+msgid "All Items"
+msgstr "Alle Items"
+
+#: includes/class-userplace-admin-localize.php:45
+msgid "Singular Name"
+msgstr "Enkelvoudige Naam"
+
+#: includes/class-userplace-admin-localize.php:46
+msgid "Post Slug"
+msgstr "Bericht Slug"
+
+#: includes/class-userplace-admin-localize.php:47
+msgid "If want to change the default all items name, add the name here"
+msgstr ""
+"Als de standaardinstelling wilt alle items naam te veranderen, voeg hier de "
+"naam"
+
+#: includes/class-userplace-admin-localize.php:48
+msgid "If want to change the default singular name, add the name here"
+msgstr ""
+"Indien u wenst het standaard enkelvoudige naam te veranderen, voeg hier de "
+"naam"
+
+#: includes/class-userplace-admin-localize.php:49
+msgid "If want to change the default post slug, add the slug here"
+msgstr ""
+"Indien u wenst het standaard bericht slug te veranderen, voeg de slug hier"
+
+#: includes/class-userplace-admin-localize.php:50
+msgid "Menu Position"
+msgstr "Menupositie"
+
+#: includes/class-userplace-admin-localize.php:51
+msgid "Select the post type menu position."
+msgstr "Selecteer het type bericht menu positie."
+
+#: includes/class-userplace-admin-localize.php:52
+msgid "Menu Icon"
+msgstr "Menu icoon"
+
+#: includes/class-userplace-admin-localize.php:53
+msgid "Select a menu icon."
+msgstr "Selecteer een menu"
+
+#: includes/class-userplace-admin-localize.php:54
+msgid "Below First Separator"
+msgstr "Hieronder Eerste Separator"
+
+#: includes/class-userplace-admin-localize.php:55
+msgid "Below Posts"
+msgstr "hieronder berichten"
+
+#: includes/class-userplace-admin-localize.php:56
+msgid "Below Media"
+msgstr "hieronder Media"
+
+#: includes/class-userplace-admin-localize.php:57
+msgid "Below Links"
+msgstr "Onder de menu koppelingen"
+
+#: includes/class-userplace-admin-localize.php:58
+msgid "Below Pages"
+msgstr "hieronder Pages"
+
+#: includes/class-userplace-admin-localize.php:59
+msgid "Below Comments"
+msgstr "hieronder Comments"
+
+#: includes/class-userplace-admin-localize.php:60
+msgid "Below Second Separator"
+msgstr "Hieronder Tweede Separator"
+
+#: includes/class-userplace-admin-localize.php:61
+msgid "Below Plugins"
+msgstr "hieronder Plugins"
+
+#: includes/class-userplace-admin-localize.php:62
+msgid "Below Users"
+msgstr "hieronder Gebruikers"
+
+#: includes/class-userplace-admin-localize.php:63
+msgid "Below Tools"
+msgstr "hieronder Gereedschap"
+
+#: includes/class-userplace-admin-localize.php:64
+msgid "Below Settings"
+msgstr "Reactieve instellingen"
+
+#: includes/class-userplace-admin-localize.php:65
+msgid "Default Icon"
+msgstr "Standaard pictogram"
+
+#: includes/class-userplace-admin-localize.php:66
+msgid "Upload Icon"
+msgstr "Upload pictogram"
+
+#: includes/class-userplace-admin-localize.php:67
+msgid "Icon Type"
+msgstr "Icoon type"
+
+#: includes/class-userplace-admin-localize.php:68
+msgid "Select the default icon type or upload a new."
+msgstr "Selecteer de standaard pictogram type of upload een nieuwe."
+
+#: includes/class-userplace-admin-localize.php:69
+msgid "Upload Custom Icon"
+msgstr "Selecteer template"
+
+#: includes/class-userplace-admin-localize.php:70
+msgid "You can upload any custom image icon."
+msgstr "U kunt elke afbeelding aangepast pictogram uploaden."
+
+#: includes/class-userplace-admin-localize.php:71
+#: includes/class-userplace-reuse-from.php:33
+msgid "Bundle Component"
+msgstr "Bundle Component"
+
+#: includes/class-userplace-admin-localize.php:72
+#: includes/class-userplace-reuse-from.php:34
+msgid "Pick Color"
+msgstr "Pik de kleur"
+
+#: includes/class-userplace-admin-localize.php:73
+#: includes/class-userplace-reuse-from.php:35
+msgid "No result found"
+msgstr "Niets gevonden"
+
+#: includes/class-userplace-admin-localize.php:74
+#: includes/class-userplace-reuse-from.php:36
+msgid "search"
+msgstr "Zoeken"
+
+#: includes/class-userplace-admin-localize.php:75
+#: includes/class-userplace-reuse-from.php:37
+msgid "Open on selected hours"
+msgstr "Totaal uren"
+
+#: includes/class-userplace-admin-localize.php:76
+#: includes/class-userplace-reuse-from.php:38
+msgid "Always open"
+msgstr "blijft lopen"
+
+#: includes/class-userplace-admin-localize.php:77
+#: includes/class-userplace-reuse-from.php:39
+msgid "No hours available"
+msgstr "Totaal uren"
+
+#: includes/class-userplace-admin-localize.php:78
+#: includes/class-userplace-reuse-from.php:40
+msgid "Permanently closed"
+msgstr "permanent gesloten"
+
+#: includes/class-userplace-admin-localize.php:79
+#: includes/class-userplace-reuse-from.php:41
+msgid "Monday"
+msgstr "Maandag"
+
+#: includes/class-userplace-admin-localize.php:80
+#: includes/class-userplace-reuse-from.php:42
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: includes/class-userplace-admin-localize.php:81
+#: includes/class-userplace-reuse-from.php:43
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: includes/class-userplace-admin-localize.php:82
+#: includes/class-userplace-reuse-from.php:44
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: includes/class-userplace-admin-localize.php:83
+#: includes/class-userplace-reuse-from.php:45
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: includes/class-userplace-admin-localize.php:84
+#: includes/class-userplace-reuse-from.php:46
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: includes/class-userplace-admin-localize.php:85
+#: includes/class-userplace-reuse-from.php:47
+msgid "Sunday"
+msgstr "Zondag"
+
+#: includes/class-userplace-admin-localize.php:86
+#: includes/class-userplace-reuse-from.php:48
+msgid "Wrong Password"
+msgstr "Onjuist wachtwoord"
+
+#: includes/class-userplace-admin-localize.php:87
+#: includes/class-userplace-reuse-from.php:49
+msgid "Password Matched"
+msgstr "Password Matched"
+
+#: includes/class-userplace-admin-localize.php:88
+#: includes/class-userplace-reuse-from.php:50
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: includes/class-userplace-admin-localize.php:89
+#: includes/class-userplace-reuse-from.php:51
+msgid "I currently work here"
+msgstr "Ik werk momenteel hier"
+
+#: includes/class-userplace-admin-localize.php:90
+msgid "Template Design Type"
+msgstr "Sjabloontype Design"
+
+#: includes/class-userplace-admin-localize.php:91
+msgid "Please select the template design type"
+msgstr "Kies een select type"
+
+#: includes/class-userplace-admin-localize.php:92
+#: includes/class-userplace-install.php:42
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/class-userplace-admin-localize.php:93
+msgid "Alternatve"
+msgstr "Alternatve"
+
+#: includes/class-userplace-admin-localize.php:104
+#: includes/class-userplace-reuse-from.php:62
+msgid "The field should not be empty"
+msgstr "Het menu ID mag niet leeg zijn."
+
+#: includes/class-userplace-admin-localize.php:105
+#: includes/class-userplace-reuse-from.php:63
+msgid "The field should be email"
+msgstr "Het veld moet e-mail worden"
+
+#: includes/class-userplace-admin-localize.php:106
+#: includes/class-userplace-reuse-from.php:64
+msgid "The field should be numeric"
+msgstr "Text Optie - Numeriek gevalideerd"
+
+#: includes/class-userplace-admin-localize.php:107
+#: includes/class-userplace-reuse-from.php:65
+msgid "The field should be Url"
+msgstr "Het veld moet Url"
+
+#: includes/class-userplace-admin-localize.php:115
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: includes/class-userplace-admin-localize.php:116
+msgid "Header Options"
+msgstr "Header Opties"
+
+#: includes/class-userplace-admin-localize.php:117
+msgid "Background Options"
+msgstr "Achtergrond Opties"
+
+#: includes/class-userplace-admin-localize.php:118
+msgid "Banner Options"
+msgstr "Banner opties"
+
+#: includes/class-userplace-admin-localize.php:119
+msgid "Sidebar Options"
+msgstr "Sidebar Opties"
+
+#: includes/class-userplace-admin-localize.php:120
+msgid "Footer Options"
+msgstr "Opties voor de footer"
+
+#: includes/class-userplace-admin-localize.php:121
+msgid "Copyright Options"
+msgstr "Copyright-opties"
+
+#: includes/class-userplace-admin-menu.php:18
+msgid "Welcome"
+msgstr "Welkom"
+
+#: includes/class-userplace-admin-menu.php:23
+#: includes/class-userplace-admin-menu.php:24
+msgid "Userplace"
+msgstr "Userplace"
+
+#: includes/class-userplace-admin-menu.php:34
+#: includes/class-userplace-admin-menu.php:35
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-userplace-admin-menu.php:42
+#: includes/class-userplace-admin-menu.php:43
+msgid "Payments"
+msgstr "Betalingen"
+
+#: includes/class-userplace-admin-menu.php:51
+#: includes/class-userplace-admin-menu.php:52
+msgid "Addons"
+msgstr "Addons"
+
+#: includes/class-userplace-admin-menu.php:61
+#: includes/class-userplace-admin-menu.php:68
+#: includes/class-userplace-admin-menu.php:74
+#: includes/class-userplace-admin-menu.php:81
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt niet voldoende rechten om deze pagina te bekijken."
+
+#: includes/class-userplace-admin-scripts.php:132
+msgid "Installing..."
+msgstr "Bezig met installeren..."
+
+#: includes/class-userplace-admin-scripts.php:133
+msgid "Deactivating..."
+msgstr "Deactiveren..."
+
+#: includes/class-userplace-admin-scripts.php:134
+msgid "Activating..."
+msgstr "Activeren..."
+
+#: includes/class-userplace-ajax-handler.php:49
+#: includes/class-userplace-ajax-handler.php:65
+msgid "One of the plugins is invalid."
+msgstr "Een van de plug-ins is ongeldig."
+
+#: includes/class-userplace-ajax-handler.php:152
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Kan niet verbinden met het bestandssysteem. Controleer uw gegevens."
+
+#: includes/class-userplace-ajax-handler.php:268
+msgid "Listing Contact"
+msgstr "Contactgegevens"
+
+#: includes/class-userplace-ajax-handler.php:594
+msgid "UserName or Email Already Exists or Empty"
+msgstr "Gebruikersnaam of e-mail bestaat al."
+
+#: includes/class-userplace-ajax-handler.php:647
+msgid "Invalid UserName or Password."
+msgstr "Ongeldige gebruikersnaam or wachtwoord."
+
+#: includes/class-userplace-install.php:91
+msgid "User Template"
+msgstr "Sjabloon voor nieuwe gebruiker"
+
+#: includes/class-userplace-install.php:99
+msgid "Console Template"
+msgstr "Console sjabloon"
+
+#: includes/class-userplace-install.php:141
+#: templates/shortcode/login_form.php:4 templates/shortcode/login_form.php:39
+msgid "Sign In"
+msgstr "Registreren"
+
+#: includes/class-userplace-install.php:145
+#: templates/shortcode/register_form.php:5
+#: templates/shortcode/register_form.php:40
+msgid "Register"
+msgstr "Inloggen"
+
+#: includes/class-userplace-install.php:149
+#: includes/class-userplace-provider.php:1639
+#: templates/shortcode/password_lost_form.php:3
+msgid "Forgot Your Password?"
+msgstr "Wachtwoord instellen?"
+
+#: includes/class-userplace-install.php:153
+#: includes/class-userplace-provider.php:1649
+#: templates/shortcode/change_password_form.php:3
+#: templates/shortcode/password_reset_form.php:3
+msgid "Pick a New Password"
+msgstr "Maak een nieuw paswoord"
+
+#: includes/class-userplace-install.php:195
+#: includes/class-userplace-install.php:208
+msgid "uMember"
+msgstr "uMember"
+
+#: includes/class-userplace-listing.php:25
+#: includes/class-userplace-listing.php:27
+msgid "Membership Plan"
+msgstr "Soort lidmaatschap"
+
+#: includes/class-userplace-listing.php:51
+msgid "Template"
+msgstr "Sjabloon"
+
+#: includes/class-userplace-listing.php:53
+msgid "Templates"
+msgstr "Sjablonen"
+
+#: includes/class-userplace-listing.php:66
+msgid "Role"
+msgstr "Rol"
+
+#: includes/class-userplace-listing.php:68
+msgid "Roles"
+msgstr "Rollen"
+
+#: includes/class-userplace-listing.php:81
+msgid "Console Menu"
+msgstr "Console"
+
+#: includes/class-userplace-listing.php:93
+msgid "Coupons"
+msgstr "Kortingcodes"
+
+#: includes/class-userplace-listing.php:109
+msgid "Plan Page URL"
+msgstr "Pagina URL"
+
+#: includes/class-userplace-listing.php:119
+msgid "Plan Builder"
+msgstr "Bouwer"
+
+#: includes/class-userplace-listing.php:127
+msgid "Apply Restrictions"
+msgstr "Beperkingen toepassen"
+
+#: includes/class-userplace-listing.php:135
+msgid "Plans Pricing Details"
+msgstr "Prijsdetails bekijken"
+
+#: includes/class-userplace-listing.php:143
+msgid "Role Capabilities"
+msgstr "Profielrol"
+
+#: includes/class-userplace-listing.php:151
+msgid "Template Settings"
+msgstr "Sjabloon Instellingen"
+
+#: includes/class-userplace-listing.php:159
+msgid "Console Menu Settings"
+msgstr "Menu item instellingen"
+
+#: includes/class-userplace-listing.php:167
+msgid "Coupon Settings"
+msgstr "Kortingscode instellingen"
+
+#: includes/class-userplace-listing.php:190
+#: includes/class-userplace-listing.php:200
+msgid "Restrict This"
+msgstr "aflijnen tegen"
+
+#: includes/class-userplace-listing.php:214
+msgid "Please copy this Url After saving the plan."
+msgstr "Kopieer deze Url na het opslaan van het plan."
+
+#: includes/class-userplace-listing.php:228
+msgid "Default Plan"
+msgstr "huidig pakket"
+
+#: includes/class-userplace-listing.php:231
+#: includes/class-userplace-provider.php:1619
+msgid "Sign In Page"
+msgstr "Aanmeldpagina"
+
+#: includes/class-userplace-login-register.php:223
+#: includes/class-userplace-login-register.php:340
+msgid "You are already signed in."
+msgstr "U bent al ingelogd."
+
+#: includes/class-userplace-login-register.php:242
+msgid "Invalid password reset link."
+msgstr "Ongeldige link voor wachtwoordherstel."
+
+#: includes/class-userplace-login-register.php:286
+msgid "Hello!"
+msgstr "Hallo!"
+
+#: includes/class-userplace-login-register.php:287
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+"U vroeg ons te herstellen van uw wachtwoord voor uw account met behulp van "
+"het e-mailadres %s."
+
+#: includes/class-userplace-login-register.php:288
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"Als dit een vergissing was, negeer dan deze e-mail en er zal niets gebeuren."
+
+#: includes/class-userplace-login-register.php:289
+#: includes/userplace-payment-utility.php:579
+msgid "To reset your password, visit the following address:"
+msgstr "Ga naar het volgende adres om je wachtwoord te resetten:"
+
+#: includes/class-userplace-login-register.php:291
+msgid "Thanks!"
+msgstr "Bedankt!"
+
+#: includes/class-userplace-login-register.php:363
+#: includes/class-userplace-login-register.php:509
+msgid "Hello "
+msgstr "Hallo"
+
+#: includes/class-userplace-login-register.php:363
+#: includes/class-userplace-login-register.php:509
+msgid "not "
+msgstr "niet"
+
+#: includes/class-userplace-login-register.php:363
+#: includes/class-userplace-login-register.php:509
+msgid "Log out"
+msgstr "Afmelden"
+
+#: includes/class-userplace-login-register.php:513
+#: includes/class-userplace-login-register.php:630
+msgid "Registering new users is currently not allowed."
+msgstr "Het registreren van nieuwe gebruikers is momenteel niet toegestaan."
+
+#: includes/class-userplace-login-register.php:546
+msgid "You are not signed in."
+msgstr "Je bent niet aangemeld."
+
+#: includes/class-userplace-login-register.php:603
+msgid "You do have an email address, right?"
+msgstr "U heeft toch een mail adres?"
+
+#: includes/class-userplace-login-register.php:606
+msgid "You need to enter a password to login."
+msgstr "Vul een wachtwoord in om in te loggen."
+
+#: includes/class-userplace-login-register.php:610
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"Er zijn geen gebruikers met dit e-mail adres. Misschien heb je een ander "
+"adres gebruikt bij het registreren?"
+
+#: includes/class-userplace-login-register.php:616
+#, php-format
+msgid ""
+"The password you entered wasn't quite right. <a href='%s'>Did you forget "
+"your password</a>?"
+msgstr "Foutief ingevuld paswoord. <a href='%s'>Paswoord vergeten</a>?"
+
+#: includes/class-userplace-login-register.php:624
+msgid "The email address you entered is not valid."
+msgstr "Het e-mail adres is ongeldig."
+
+#: includes/class-userplace-login-register.php:627
+msgid "An account exists with this email address."
+msgstr "Er bestaat al een account met dit e-mail adres."
+
+#: includes/class-userplace-login-register.php:635
+msgid "You need to enter your email address to continue."
+msgstr "Vul uw mail adres in om verder te gaan."
+
+#: includes/class-userplace-login-register.php:639
+msgid "There are no users registered with this email address."
+msgstr "Er zijn geen gebruikers met dit mail adres."
+
+#: includes/class-userplace-login-register.php:645
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+"De link voor het opnieuw instellen van het wachtwoord die u heeft gebruikt, "
+"is niet meer geldig."
+
+#: includes/class-userplace-login-register.php:648
+#: includes/class-userplace-login-register.php:663
+msgid "The two passwords you entered don't match."
+msgstr "De twee wachtwoorden die u hebt ingevoerd, komen niet overeen."
+
+#: includes/class-userplace-login-register.php:651
+#: includes/class-userplace-login-register.php:661
+msgid "Sorry, we don't accept empty passwords."
+msgstr "U moet een paswoord maken!"
+
+#: includes/class-userplace-login-register.php:655
+msgid "You entered a incorrect old password."
+msgstr "Incorrect verlopen wachtwoord."
+
+#: includes/class-userplace-login-register.php:657
+msgid "Your current password and new passwrod must not be same."
+msgstr "Geef uw oude wachtwoord en nieuwe wachtwoord."
+
+#: includes/class-userplace-login-register.php:659
+msgid "Old password field is empty. Enter your current password."
+msgstr "Oude wachtwoordveld is leeg. Typ uw huidige wachtwoord."
+
+#: includes/class-userplace-login-register.php:672
+msgid "An unknown error occurred. Please try again later."
+msgstr "Er is een onbekende error opgetreden. Probeer het later opnieuw."
+
+#. translators: %s: title of menu item which is invalid
+#: includes/class-userplace-nav-menu-metabox.php:112
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Ongeldig)"
+
+#. translators: %s: title of menu item in draft status
+#: includes/class-userplace-nav-menu-metabox.php:116
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Wachtend)"
+
+#: includes/class-userplace-nav-menu-metabox.php:140
+msgid "Move up"
+msgstr "Omhoog bewegen"
+
+#: includes/class-userplace-nav-menu-metabox.php:153
+msgid "Move down"
+msgstr "Omlaag bewegen"
+
+#: includes/class-userplace-nav-menu-metabox.php:155
+#: includes/class-userplace-nav-menu-metabox.php:157
+msgid "Edit Menu Item"
+msgstr "Bewerk menu-item"
+
+#: includes/class-userplace-nav-menu-metabox.php:166
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-userplace-nav-menu-metabox.php:173
+msgid "Navigation Label"
+msgstr "Navigatie label"
+
+#: includes/class-userplace-nav-menu-metabox.php:179
+msgid "Title Attribute"
+msgstr "Titel eigenschap"
+
+#: includes/class-userplace-nav-menu-metabox.php:186
+msgid "Open link in a new window/tab"
+msgstr "Link openen in nieuw venster/tab"
+
+#: includes/class-userplace-nav-menu-metabox.php:191
+msgid "CSS Classes (optional)"
+msgstr "CSS-classes (optioneel)"
+
+#: includes/class-userplace-nav-menu-metabox.php:197
+msgid "Link Relationship (XFN)"
+msgstr "Link Relatie (XFN)"
+
+#: includes/class-userplace-nav-menu-metabox.php:203
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/class-userplace-nav-menu-metabox.php:205
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+"De omschrijving word weergegeven in het menu als het huidige thema dit "
+"ondersteunt."
+
+#: includes/class-userplace-nav-menu-metabox.php:214
+msgid "Who can see this menu link?"
+msgstr "Wie kunnen deze menu link zien?"
+
+#: includes/class-userplace-nav-menu-metabox.php:253
+#, php-format
+msgid "Original: %s"
+msgstr "Origineel: %s"
+
+#: includes/class-userplace-nav-menu-metabox.php:266
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/class-userplace-nav-menu-metabox.php:267
+msgid "Cancel"
+msgstr "Abonnement annuleren"
+
+#: includes/class-userplace-provider.php:21
+msgid "Coupons/Discounts Id"
+msgstr "Coupons/Kortingen Id"
+
+#: includes/class-userplace-provider.php:23
+msgid "Place coupon id created in your dashboard"
+msgstr "Place coupon id gemaakt in uw dashboard"
+
+#: includes/class-userplace-provider.php:50
+#: includes/class-userplace-provider.php:85
+msgid "Restricted Plans"
+msgstr "Beperkte plannen"
+
+#: includes/class-userplace-provider.php:64
+msgid "Public View"
+msgstr "Openbaar"
+
+#: includes/class-userplace-provider.php:68
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: includes/class-userplace-provider.php:69
+msgid "Logged In Users"
+msgstr "Ingelogde gebruikers"
+
+#: includes/class-userplace-provider.php:70
+msgid "Looged Out Users"
+msgstr "Niet ingelogde gebruikers"
+
+#: includes/class-userplace-provider.php:632
+msgid "Gravater"
+msgstr "Gravater"
+
+#: includes/class-userplace-provider.php:641
+msgid "Banner Image"
+msgstr "Banner-afbeelding"
+
+#: includes/class-userplace-provider.php:650
+#: templates/shortcode/register_form.php:23
+msgid "First name"
+msgstr "Voornaam"
+
+#: includes/class-userplace-provider.php:660
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: includes/class-userplace-provider.php:671
+msgid "Gender"
+msgstr "Geslacht"
+
+#: includes/class-userplace-provider.php:672
+msgid "Select your gender"
+msgstr "Selecteer uw geslacht"
+
+#: includes/class-userplace-provider.php:677
+msgid "Male"
+msgstr "Mannen"
+
+#: includes/class-userplace-provider.php:678
+msgid "Female"
+msgstr "Vrouwelijk"
+
+#: includes/class-userplace-provider.php:679
+msgid "Other"
+msgstr "Overige"
+
+#: includes/class-userplace-provider.php:686
+msgid "Date of birth"
+msgstr "Geboortedatum"
+
+#: includes/class-userplace-provider.php:687
+msgid "Insert date of birth ( YYYY-MM-DD )"
+msgstr "Geboortedatum invoegen (JJJJ-MM-DD)"
+
+#: includes/class-userplace-provider.php:695
+msgid "Website URI"
+msgstr "Website"
+
+#: includes/class-userplace-provider.php:705
+msgid "Address"
+msgstr "Adres"
+
+#: includes/class-userplace-provider.php:715
+msgid "university"
+msgstr "universiteit"
+
+#: includes/class-userplace-provider.php:723
+msgid "Description About You"
+msgstr "Beschrijving Over jou"
+
+#: includes/class-userplace-provider.php:733
+msgid "What I Do"
+msgstr "Wat ik doe"
+
+#: includes/class-userplace-provider.php:743
+msgid "Work Location"
+msgstr "Werklocatie"
+
+#: includes/class-userplace-provider.php:753
+msgid "Work Fields"
+msgstr "Velden"
+
+#: includes/class-userplace-provider.php:763
+msgid "Designation"
+msgstr "Bestemming/woonplaats"
+
+#: includes/class-userplace-provider.php:773
+msgid "Facebook URI"
+msgstr "Facebook URI"
+
+#: includes/class-userplace-provider.php:783
+msgid "Twitter URI"
+msgstr "Twitter URI"
+
+#: includes/class-userplace-provider.php:793
+msgid "Google+ URI"
+msgstr "Google+ URI"
+
+#: includes/class-userplace-provider.php:803
+msgid "Instagram URI"
+msgstr "Instagram URI"
+
+#: includes/class-userplace-provider.php:813
+msgid "Company Name"
+msgstr "Bedrijfsnaam"
+
+#: includes/class-userplace-provider.php:824
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: includes/class-userplace-provider.php:827
+msgid "Select your timezone"
+msgstr "Selecteer uw tijdzone"
+
+#: includes/class-userplace-provider.php:835
+msgid "Update Profile"
+msgstr "Profiel bijwerken"
+
+#: includes/class-userplace-provider.php:851
+msgid "Select Posttypes for this Plan"
+msgstr "Stel algemene tariefplan"
+
+#: includes/class-userplace-provider.php:858
+msgid "Base Listing Rate in $"
+msgstr "Base Rate notering in $"
+
+#: includes/class-userplace-provider.php:859
+msgid "Base Listing Rate"
+msgstr "Theme Base Layout"
+
+#: includes/class-userplace-provider.php:865
+msgid "Enter Currency Symbol (ex. $)"
+msgstr "Voer hier uw valutasymbool..."
+
+#: includes/class-userplace-provider.php:866
+msgid "Enter Currency Symbol"
+msgstr "Toon Header Valuta Switcher?"
+
+#: includes/class-userplace-provider.php:872
+msgid "Per Media Rate in $"
+msgstr "Per Media tarief in $"
+
+#: includes/class-userplace-provider.php:873
+msgid "Rate Per Media"
+msgstr "voor de Dag"
+
+#: includes/class-userplace-provider.php:879
+msgid "Expired in Days"
+msgstr "Min Dagen"
+
+#: includes/class-userplace-provider.php:888
+#: includes/class-userplace-provider.php:1173
+msgid " On Subscription Expired Listing Status"
+msgstr "Abonnement is verlopen aanbieding Status"
+
+#: includes/class-userplace-provider.php:898
+msgid "Term Specific Cost"
+msgstr "term Metabox"
+
+#: includes/class-userplace-provider.php:904
+msgid " Select Term"
+msgstr "Selecteer voorwaarden"
+
+#: includes/class-userplace-provider.php:911
+msgid "Cost of this Term"
+msgstr "kosten van schulden"
+
+#: includes/class-userplace-provider.php:920
+msgid "Rate Per Term"
+msgstr "Per termijn"
+
+#: includes/class-userplace-provider.php:955
+msgid "General Settings"
+msgstr "Basis Instellingen"
+
+#: includes/class-userplace-provider.php:962
+msgid "Enable/Disable This Plan"
+msgstr "In- / uitschakelen zoekfunctie"
+
+#: includes/class-userplace-provider.php:969
+msgid "Make This a Default Plan"
+msgstr "Maken dit een standaardschema"
+
+#: includes/class-userplace-provider.php:1002
+msgid "Plan Price"
+msgstr "Plattegrond prijs"
+
+#: includes/class-userplace-provider.php:1009
+msgid "Select Role For this plan"
+msgstr "Selecteer rol voor dit plan"
+
+#: includes/class-userplace-provider.php:1010
+msgid ""
+"This will set as user role after purchasing the plan. Please select the role "
+"wisely. You can just keep userplace_member. You can also change the role "
+"capabilities or create a new one from role menu."
+msgstr ""
+"Hierdoor wordt ingesteld als gebruikersrol na de aankoop van het plan. "
+"Selecteer de rol verstandig. Alleen kun je userplace_member. U kunt ook "
+"wijzigen van de rol-mogelijkheden of maak een nieuwe rol menu."
+
+#: includes/class-userplace-provider.php:1019
+msgid "Select Coupon for this plan"
+msgstr "Selecteer Coupon voor dit plan"
+
+#: includes/class-userplace-provider.php:1020
+msgid "Please create coupon from the coupon menu, and add it into the plan."
+msgstr "Coupon van de coupon menu Maak, en toe te voegen in het plan."
+
+#: includes/class-userplace-provider.php:1029
+msgid "Apply View Level Restrictions"
+msgstr "Weergave niveau beperkingen toepassen"
+
+#: includes/class-userplace-provider.php:1036
+msgid "GLOBAL: Post Restriction"
+msgstr "Globaal: Beperking van de Post"
+
+#: includes/class-userplace-provider.php:1038
+msgid "Please select post type, where you want to add restriction capabilities"
+msgstr ""
+"Selecteer soort van de post, waar u wilt toevoegen van de beperking "
+"mogelijkheden"
+
+#: includes/class-userplace-provider.php:1046
+msgid " Enable Single Post Restriction"
+msgstr "Inschakelen enkele Post beperking"
+
+#: includes/class-userplace-provider.php:1047
+msgid "This will only work if you do not have global post type restriction."
+msgstr "Dit werkt alleen als u nog geen globale post type beperking."
+
+#: includes/class-userplace-provider.php:1055
+msgid ""
+"This portion gives user of this plan to restrict other user to view your "
+"listing."
+msgstr ""
+"Dit gedeelte geeft gebruiker van dit plan te beperken van de andere "
+"gebruiker als u wilt bekijken van uw aanbieding."
+
+#: includes/class-userplace-provider.php:1060
+msgid " Select Restricted Post Types"
+msgstr "﻿Kies een bericht type"
+
+#: includes/class-userplace-provider.php:1069
+msgid "Comment Restrictions"
+msgstr "Opmerking beperkingen"
+
+#: includes/class-userplace-provider.php:1070
+msgid "Select Comment Restricted Post Type"
+msgstr "Selecteer commentaar beperkt Post Type"
+
+#: includes/class-userplace-provider.php:1080
+msgid "Widgets Restrictions"
+msgstr "Widgets beperkingen"
+
+#: includes/class-userplace-provider.php:1081
+msgid "Select Restricted Widgets"
+msgstr "Selecteer beperkt Widgets"
+
+#: includes/class-userplace-provider.php:1093
+msgid "Submission Restrictions"
+msgstr "Indiening beperkingen"
+
+#: includes/class-userplace-provider.php:1100
+msgid " Enable/Disable"
+msgstr "In-/Uitschakelen"
+
+#: includes/class-userplace-provider.php:1108
+msgid " Allow Unlimited Post"
+msgstr "Onbeperkte lijstpagina via Shortcode"
+
+#: includes/class-userplace-provider.php:1116
+msgid " Show View Resctriction Metabox"
+msgstr "Show View Resctction Metabox"
+
+#: includes/class-userplace-provider.php:1124
+msgid " Max Post Allowed"
+msgstr "Suhosin Max Post Vars"
+
+#: includes/class-userplace-provider.php:1134
+msgid " Max Terms per Post"
+msgstr "Max voorwaarden per Post"
+
+#: includes/class-userplace-provider.php:1144
+msgid " Restricted Metakeys"
+msgstr "Deelbetalingen"
+
+#: includes/class-userplace-provider.php:1164
+msgid " Restricted Terms"
+msgstr "Deelbetalingen"
+
+#: includes/class-userplace-provider.php:1206
+msgid "Please select a payment gateway"
+msgstr "Selecteer een betalingsgateway"
+
+#: includes/class-userplace-provider.php:1217
+#: includes/class-userplace-provider.php:1266
+msgid "Set Payment Mode"
+msgstr "Betalingsmethode"
+
+#: includes/class-userplace-provider.php:1221
+msgid "Live"
+msgstr "Live"
+
+#: includes/class-userplace-provider.php:1222
+msgid "Test"
+msgstr "Test"
+
+#: includes/class-userplace-provider.php:1234
+msgid "Live Stripe API Key"
+msgstr "Live Stripe API-sleutel"
+
+#: includes/class-userplace-provider.php:1242
+msgid "Live Stripe Secret Key"
+msgstr "Live Stripe geheime sleutel"
+
+#: includes/class-userplace-provider.php:1250
+msgid "Test Stripe API Key"
+msgstr "Test Stripe API-sleutel"
+
+#: includes/class-userplace-provider.php:1258
+msgid "Test Stripe Secret Key"
+msgstr "Test Stripe geheime sleutel"
+
+#: includes/class-userplace-provider.php:1283
+msgid "SandBox Braintree Merchant ID"
+msgstr "Sandbox-Braintree Merchant ID"
+
+#: includes/class-userplace-provider.php:1291
+msgid "SandBox Braintree API Key"
+msgstr "SandBox Braintree API Key"
+
+#: includes/class-userplace-provider.php:1299
+msgid "SandBox Braintree API Secret"
+msgstr "Sandbox-Braintree API Secret"
+
+#: includes/class-userplace-provider.php:1307
+msgid "Production Braintree Merchant ID"
+msgstr "Productie Braintree Merchant ID"
+
+#: includes/class-userplace-provider.php:1315
+msgid "Production Braintree API Key"
+msgstr "Productie Braintree API-sleutel"
+
+#: includes/class-userplace-provider.php:1323
+msgid "Production Braintree API Secret"
+msgstr "SandBox Braintree API Secret"
+
+#: includes/class-userplace-provider.php:1613
+msgid "Please select appropriate pages"
+msgstr "Selecteer de juiste pagina's"
+
+#: includes/class-userplace-provider.php:1623
+#: includes/class-userplace-provider.php:1630
+#: includes/class-userplace-provider.php:1640
+#: includes/class-userplace-provider.php:1650
+#: includes/class-userplace-provider.php:1661
+msgid "Select a page..."
+msgstr "Selecteer een pagina..."
+
+#: includes/class-userplace-provider.php:1629
+msgid "Register Page"
+msgstr "Registratiepagina"
+
+#: includes/class-userplace-provider.php:1652
+msgid "This page will appear after the forget password call."
+msgstr "Deze pagina verschijnt na het vergeten van het wachtwoord."
+
+#: includes/class-userplace-provider.php:1660
+msgid "Pricing Plan Page (Optional)"
+msgstr "Prijsplanpagina (optioneel)"
+
+#: includes/class-userplace-provider.php:1662
+msgid ""
+"Please select your pricing plan page. It will be your default pricing page."
+msgstr ""
+"Selecteer uw pagina met het tariefplan. Het wordt uw standaard "
+"prijslijstpagina."
+
+#: includes/generator/class-admin-column.php:18
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/generator/class-userplace-post-type.php:107
+#: includes/generator/class-userplace-taxonomy.php:44
+msgid "Add New "
+msgstr "Nieuwe toevoegen"
+
+#: includes/generator/class-userplace-post-type.php:108
+#: includes/generator/class-userplace-taxonomy.php:42
+msgid "Edit "
+msgstr "Bewerken"
+
+#: includes/generator/class-userplace-post-type.php:109
+#: includes/generator/class-userplace-taxonomy.php:45
+msgid "New "
+msgstr "Nieuw"
+
+#: includes/generator/class-userplace-post-type.php:110
+#: includes/generator/class-userplace-taxonomy.php:39
+msgid "All "
+msgstr "Alles"
+
+#: includes/generator/class-userplace-post-type.php:111
+msgid "View "
+msgstr "Bekijken"
+
+#: includes/generator/class-userplace-post-type.php:112
+#: includes/generator/class-userplace-taxonomy.php:38
+msgid "Search "
+msgstr "Zoek"
+
+#: includes/generator/class-userplace-post-type.php:113
+#: includes/generator/class-userplace-post-type.php:114
+msgid "No "
+msgstr "Nee "
+
+#: includes/generator/class-userplace-taxonomy.php:40
+#: includes/generator/class-userplace-taxonomy.php:41
+msgid "Parent "
+msgstr "Parent"
+
+#: includes/generator/class-userplace-taxonomy.php:43
+msgid "Update "
+msgstr "Aanpassen"
+
+#: includes/generator/class-userplace-term-meta.php:124
+msgid "Custom Fileds"
+msgstr "Aangepaste CSS class"
+
+#: includes/payments/billing/card.php:2
+msgid "Payment "
+msgstr "Betaling"
+
+#: includes/payments/billing/card.php:6
+msgid "Card No "
+msgstr "Kaart nr."
+
+#: includes/payments/billing/card.php:7
+msgid "Expiration "
+msgstr "Vervaldatum"
+
+#: includes/payments/billing/card.php:8
+msgid "Next payment "
+msgstr "Volgende betaling"
+
+#: includes/payments/billing/invoices.php:2
+msgid "Payment history "
+msgstr "Betalingsgeschiedenis"
+
+#: includes/payments/billing/invoices.php:5
+msgid "ID "
+msgstr "ID"
+
+#: includes/payments/billing/invoices.php:7
+#: includes/payments/billing/plan.php:18
+msgid "Amount "
+msgstr "Bedrag"
+
+#: includes/payments/billing/invoices.php:8
+msgid "Currency "
+msgstr "Valuta"
+
+#: includes/payments/billing/plan.php:10
+msgid "Billing Overview "
+msgstr "Overzicht facturering"
+
+#: includes/payments/billing/plan.php:14
+msgid "Current plan "
+msgstr "Huidig pakket"
+
+#: includes/payments/billing/plan.php:27
+msgid "Status "
+msgstr "Status"
+
+#: includes/payments/billing/plan.php:34
+msgid "Change Plan "
+msgstr "Verander abonnement"
+
+#: includes/payments/class-redqfw-payment-init.php:421
+msgid "Payment Hisotry"
+msgstr "Betaling Archambault"
+
+#: includes/payments/class-redqfw-payment-init.php:423
+msgid "Billing Overview"
+msgstr "Overzicht facturering"
+
+#: includes/payments/class-redqfw-payment-init.php:427
+msgid ""
+" Sorry You are not currently with any Plan and You don't have any "
+"transaction history "
+msgstr ""
+"Sorry u momenteel niet met een Plan en je hoeft geen transactiegeschiedenis"
+
+#: includes/userplace-payment-utility.php:562
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of e-mail adres"
+
+#: includes/userplace-payment-utility.php:575
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Iemand heeft verzocht om zijn of haar wachtwoord te herstellen:"
+
+#: includes/userplace-payment-utility.php:577
+#, php-format
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: includes/userplace-payment-utility.php:578
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Als dit een vergissing was, kun je deze e-mail gewoon negeren."
+
+#. translators: Password reset email subject. 1: Site name
+#: includes/userplace-payment-utility.php:593
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord resetten"
+
+#: includes/userplace-payment-utility.php:620
+msgid "The email could not be sent."
+msgstr "E-mail kon niet worden verzonden"
+
+#: includes/userplace-payment-utility.php:620
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+"Mogelijke oorzaak: je host heeft misschien de mail()-functie uitgeschakeld."
+
+#: shortcodes/userplace_profile_widget.php:88
+msgid " User Profile "
+msgstr "Gebruikersprofiel"
+
+#: shortcodes/userplace_profile_widget.php:98
+#: shortcodes/userplace_profile_widget.php:104
+msgid " Job "
+msgstr "Job"
+
+#: shortcodes/userplace_profile_widget.php:99
+#: shortcodes/userplace_user_main_profile.php:73
+#: shortcodes/userplace_user_main_profile.php:107
+msgid " at "
+msgstr "om"
+
+#: shortcodes/userplace_profile_widget.php:113
+msgid " Date of Birth "
+msgstr "Geboortedatum"
+
+#: shortcodes/userplace_profile_widget.php:120
+msgid " Address "
+msgstr "Adres"
+
+#: shortcodes/userplace_profile_widget.php:130
+msgid " View Details "
+msgstr "Details weergeven"
+
+#: shortcodes/userplace_restrict_content.php:30
+msgid "Sorry You are not eligible to view this"
+msgstr "Sorry u komen niet in aanmerking om dit te bekijken"
+
+#: shortcodes/userplace_user_all_post.php:50
+msgid "LISTINGS"
+msgstr "Woningaanbod"
+
+#: shortcodes/userplace_user_all_post.php:101
+msgid "No Listing Found!"
+msgstr "Geen advertenties gevonden"
+
+#: shortcodes/userplace_user_bio.php:21
+msgid "Your Title Here"
+msgstr "Uw titel hier invoegen"
+
+#: shortcodes/userplace_user_location_map.php:23
+msgid "Position"
+msgstr "Positie"
+
+#: shortcodes/userplace_user_main_profile.php:125
+msgid " About Me "
+msgstr "Profiel"
+
+#: shortcodes/userplace_user_quick_contact.php:21
+msgid "Quick Contact"
+msgstr "Snel contact"
+
+#: shortcodes/userplace_user_quick_contact.php:43
+msgid "Name"
+msgstr "Naam: "
+
+#: shortcodes/userplace_user_quick_contact.php:44
+msgid "Author email"
+msgstr "E-mailadres van auteur"
+
+#: shortcodes/userplace_user_quick_contact.php:45
+#: templates/shortcode/password_lost_form.php:25
+#: templates/shortcode/register_form.php:18
+msgid "Email"
+msgstr "E-mailadres"
+
+#: shortcodes/userplace_user_quick_contact.php:47
+msgid "Your Comment"
+msgstr "Je reactie"
+
+#: shortcodes/userplace_user_quick_contact.php:48
+msgid "Submit"
+msgstr "Verzenden"
+
+#: shortcodes/userplace_welcome_message.php:26
+msgid "Congratz!! You have successfully subscribed. You have charged "
+msgstr "Congratz!! Je bent nu geabonneerd. U in rekening hebben gebracht"
+
+#: templates/comments.php:2
+msgid "Sorry You are not eligible to view or post comment!"
+msgstr "Sorry je bent niet in aanmerking komen om te bekijken of commentaar!"
+
+#: templates/console/userplace_console_header.php:6
+msgid "Console page"
+msgstr "Console-pagina"
+
+#: templates/console/userplace_console_menu.php:49
+msgid "Back to Home"
+msgstr "Naar de homepage"
+
+#: templates/console/userplace_console_menu.php:68
+msgid "Console"
+msgstr "Console"
+
+#: templates/console/userplace_console_menu.php:131
+msgid "View Profile"
+msgstr "Bekijk profiel"
+
+#: templates/console/userplace_console_menu.php:134
+msgid "Edit Profile"
+msgstr "Bewerk profiel"
+
+#: templates/console/userplace_console_menu.php:140
+msgid "Billing"
+msgstr "Betalingsgegevens"
+
+#: templates/console/userplace_console_menu.php:143
+#: templates/shortcode/change_password_form.php:38
+msgid "Change Password"
+msgstr "Verander wachtwoord"
+
+#: templates/console/userplace_console_menu.php:146
+msgid "Logout"
+msgstr "Afmelden"
+
+#: templates/handle-subscription-payment.php:10
+msgid "Please Login First"
+msgstr "Meld u aan voordat u verdergaat"
+
+#: templates/notice/post-restriction-notice.php:2
+msgid ""
+"Sorry this post has been Drafted due to lack of facility in your Subscription"
+msgstr ""
+"Volgens deze producent/exporteur kon de procedure niet worden ingeleid omdat "
+"er niet voldoende bewijs in de klacht was opgenomen."
+
+#: templates/notice/post-restriction-notice.php:7
+#, php-format
+msgctxt "userplace"
+msgid ""
+"Post limit exceeded! You can only publish <strong>%d</strong> posts with "
+"this Subscription"
+msgstr ""
+"Limiet overschreden! U kunt alleen het publiceren van <strong>%d</strong> "
+"posten met het bovengenoemde abonnement"
+
+#: templates/notice/post-restriction-notice.php:10
+#, php-format
+msgctxt "userplace"
+msgid ""
+"Terms limit exceeded! You can only add <strong>%d</strong> post terms in a "
+"post."
+msgstr ""
+"Termenlimiet overschreden! Je kunt alleen <strong>% d</strong> berichttermen "
+"toevoegen aan een bericht."
+
+#: templates/notice/post-restriction-notice.php:15
+#, php-format
+msgctxt "userplace"
+msgid ""
+"Sorry these terms are not allowed in your subscription plan: <strong>%s</"
+"strong>"
+msgstr ""
+"Sorry, deze voorwaarden zijn niet toegestaan ​​in uw abonnement: <strong>%s</"
+"strong>"
+
+#: templates/notice/post-restriction-notice.php:18
+#, php-format
+msgctxt "userplace"
+msgid ""
+"Sorry these metakeys are not allowed in your subscription plan: <strong>%s</"
+"strong>"
+msgstr ""
+"Sorry, deze metakeys zijn niet toegestaan ​​in uw abonnement: <strong>%s</"
+"strong>"
+
+#: templates/shortcode/change_password_form.php:17
+msgid ""
+"Your password has been changed. You can sign in now with your new password."
+msgstr "Uw paswoord is aangepast. U kunt nu inloggen."
+
+#: templates/shortcode/change_password_form.php:22
+msgid "Old password"
+msgstr "Oud wachtwoord"
+
+#: templates/shortcode/change_password_form.php:26
+#: templates/shortcode/password_reset_form.php:19
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: templates/shortcode/change_password_form.php:30
+#: templates/shortcode/password_reset_form.php:23
+msgid "Repeat new password"
+msgstr "Herhaal nieuw wachtwoord"
+
+#: templates/shortcode/login_form.php:19
+msgid "You have signed out. Would you like to sign in again?"
+msgstr "Je bent afgemeld. Wilt u opnieuw inloggen?"
+
+#: templates/shortcode/login_form.php:25
+msgid "Check your email for a link to reset your password."
+msgstr ""
+"Controleer uw e-mail voor een link om uw wachtwoord opnieuw in te stellen."
+
+#: templates/shortcode/login_form.php:31
+msgid "Your password has been changed. You can sign in now."
+msgstr "Uw paswoord is aangepast. U kunt nu inloggen."
+
+#: templates/shortcode/login_form.php:38
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: templates/shortcode/login_form.php:47
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: templates/shortcode/password_lost_form.php:17
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+"Voer uw gebruikersnaam of e-mailadres in. We sturen u een link die u kunt "
+"gebruiken om een nieuw wachtwoord te kiezen."
+
+#: templates/shortcode/password_lost_form.php:31
+#: templates/shortcode/password_reset_form.php:31
+msgid "Reset Password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: templates/shortcode/register_form.php:28
+msgid "Last name"
+msgstr "Achternaam"
+
+#: templates/shortcode/register_form.php:33
+msgid ""
+"Note: Your password will be generated automatically and sent to your email "
+"address."
+msgstr "* een nieuw wachtwoord zal worden verzonden naar uw e-mailadres"
+
+#: templates/user-page.php:33
+msgid "Edit"
+msgstr "Wijzigen"
+
+#. Plugin Name of the plugin/theme
+msgid "Userplace - Member Subscription, Restriction & Payments"
+msgstr "Userplace - lid abonnement, beperking & betalingen"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://redq.io"
+msgstr "https://redq.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"It’ll help you to monetize your site, you will able to create plans, "
+"subscriptions and restrictions that applies into view level and submission "
+"level."
+msgstr ""
+"Het zal u helpen om geld te verdienen met uw site, zult u kunnen plannen, "
+"abonnementen en beperkingen die van toepassing is in de weergave en "
+"indiening niveau te creëren."
+
+#. Author of the plugin/theme
+msgid "RedQ,Inc"
+msgstr "RedQ, Inc"
+
+#~ msgid "Choose Container class"
+#~ msgstr "Hoofding kiezen"
+
+#~ msgid "Container"
+#~ msgstr "Container"
+
+#~ msgid "Container Fluid"
+#~ msgstr "Container vloeiend"
+
+#~ msgid "Choose Container No Padding Class"
+#~ msgstr "Kies Container geen opvulling-klasse"
+
+#~ msgid "Full Width Without Padding"
+#~ msgstr "Volledige breedte zonder opvulling"
+
+#~ msgid "Full Width With Padding"
+#~ msgstr "Editor - Volledige breedte"
+
+#~ msgid "Use Header Options From"
+#~ msgstr "Header Opties"
+
+#~ msgid "Scholar Option Panel"
+#~ msgstr "Paneel"
+
+#~ msgid "Current Page Settings"
+#~ msgstr "Reactieve instellingen"
+
+#~ msgid "Choose Header"
+#~ msgstr "Hoofding kiezen"
+
+#~ msgid "Choose Header For This Page"
+#~ msgstr "Kies Header voor deze pagina"
+
+#~ msgid "Header One"
+#~ msgstr "Koptekst"
+
+#~ msgid "Header Image"
+#~ msgstr "Afbeelding voor kop e-mail"
+
+#~ msgid "Header Two"
+#~ msgstr "Koptekst"
+
+#~ msgid "Header Three"
+#~ msgstr "header Drie"
+
+#~ msgid "Transparent Menu Logo"
+#~ msgstr "Transparant menu"
+
+#~ msgid "Sticky Menu Logo"
+#~ msgstr "Sticky Menu Logo-instelling"
+
+#~ msgid "Background Image"
+#~ msgstr "Achtergrond afbeelding"
+
+#~ msgid "Background Color"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid "Header height"
+#~ msgstr "Kop Hoogte"
+
+#~ msgid "Width"
+#~ msgstr "Breedte"
+
+#~ msgid "Header width"
+#~ msgstr "Kop breedte"
+
+#~ msgid "Use Footer Options From"
+#~ msgstr "Footer Opties"
+
+#~ msgid "Display Footer"
+#~ msgstr "Footer weergeven"
+
+#~ msgid "Choose Footer"
+#~ msgstr "Kies footer"
+
+#~ msgid "Choose Footer For This Page"
+#~ msgstr "Kies Footer voor deze pagina"
+
+#~ msgid "footer One"
+#~ msgstr "Footer Ruimte één"
+
+#~ msgid "Footer Image"
+#~ msgstr "Footer: Afbeelding"
+
+#~ msgid "Footer Two"
+#~ msgstr "footer-twee"
+
+#~ msgid "Footer Three"
+#~ msgstr "Footer ruimte drie"
+
+#~ msgid "Footer Background Image"
+#~ msgstr "Footer Achtergrond Afbeelding"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Footer achtegrondkleur"
+
+#~ msgid "Footer height"
+#~ msgstr "Footer height"
+
+#~ msgid "Footer Width"
+#~ msgstr "Footer breedte"
+
+#~ msgid "Footer width"
+#~ msgstr "Footer breedte"
+
+#~ msgid "Enable Widgets"
+#~ msgstr "Inschakelen van Widgets"
+
+#~ msgid "Choose Layout"
+#~ msgstr "Lay-out kiezen"
+
+#~ msgid "Boxed Layout"
+#~ msgstr "Box Layout"
+
+#~ msgid "Fluid Layout"
+#~ msgstr "2 Zoekformulier"
+
+#~ msgid "Background Image For Fluid Layout"
+#~ msgstr "Menu Drop achtergrond met beeld, kleur, enz."
+
+#~ msgid "Background Color For Fluid Layout"
+#~ msgstr "Body achtergrond met afbeelding, kleur, etc."
+
+#~ msgid "Background Image For Boxed Layout"
+#~ msgstr "Menu Drop achtergrond met beeld, kleur, enz."
+
+#~ msgid "Background Color For Boxed Layout"
+#~ msgstr "Container achtergrondkleur voor boxed layout"
+
+#~ msgid "Background Image For Main Content in Boxed Layout"
+#~ msgstr "Achtergrondafbeelding voor hoofdinhoud gebied"
+
+#~ msgid "Background Color For Main Cotnent in Boxed Layout"
+#~ msgstr "Achtergrondkleur voor container in doos lay-out"
+
+#~ msgid "User Banner Options From"
+#~ msgstr "Alle Banner gerelateerde opties worden hier weergegeven."
+
+#~ msgid "Banner"
+#~ msgstr "Banner"
+
+#~ msgid "No Banner"
+#~ msgstr "Geen banner"
+
+#~ msgid "General Image/Color Banner"
+#~ msgstr "Banner-afbeelding"
+
+#~ msgid "Big Image/Color Banner"
+#~ msgstr "Blog Banner achtergrond met beeld, kleur, enz."
+
+#~ msgid "Slider"
+#~ msgstr "Slider"
+
+#~ msgid "Banner Color"
+#~ msgstr "Banner Kleur"
+
+#~ msgid "Slider Shortcode"
+#~ msgstr "Slider Shortcode"
+
+#~ msgid "enter your slider shortcode here..."
+#~ msgstr "Voer uw schuifregelaar shortcode hier..."
+
+#~ msgid "Banner Text"
+#~ msgstr "Banner tekst"
+
+#~ msgid "Insert the text (Inlcuding HTML tags)"
+#~ msgstr "Vul hieronder de tekst voor de titel in."
+
+#~ msgid "Enter your text here..."
+#~ msgstr "Voer hier uw tekst in"
+
+#~ msgid "Banner Color Opacity"
+#~ msgstr "Banner Kleur"
+
+#~ msgid "Banner Opacity"
+#~ msgstr "Banner opties"
+
+#~ msgid "Show BreadCrumbs"
+#~ msgstr "Weergeven of verbergen van het activiteitenonderdeel"
+
+#~ msgid "Banner Content Alignment"
+#~ msgstr "Banner Content Alignment"
+
+#~ msgid "Left"
+#~ msgstr "Links"
+
+#~ msgid "Center"
+#~ msgstr "Midden"
+
+#~ msgid "Page Title"
+#~ msgstr "Pagina titel"
+
+#~ msgid "Use Copyright Options From"
+#~ msgstr "Gebruik Copyright opties uit"
+
+#~ msgid "Display Copyright"
+#~ msgstr "Copyright Sectie"
+
+#~ msgid "Choose Copyright"
+#~ msgstr "Lay-out kiezen"
+
+#~ msgid "Choose Copyright For This Page"
+#~ msgstr "Kies Copyright voor deze pagina"
+
+#~ msgid "Copyright One"
+#~ msgstr "Copyright One"
+
+#~ msgid "Copyright Image"
+#~ msgstr "Copyright afbeelding"
+
+#~ msgid "Copyright Two"
+#~ msgstr "Copyright Two"
+
+#~ msgid "Copyright Three"
+#~ msgstr "Copyright Drie"
+
+#~ msgid "Copyright Logo"
+#~ msgstr "Copyright Logo"
+
+#~ msgid "Copyright Background Image"
+#~ msgstr "Copyright achtergrond met beeld, kleur, enz."
+
+#~ msgid "Copyright Background Color"
+#~ msgstr "Copyright Achtergrond Kleur"
+
+#~ msgid "copyright height"
+#~ msgstr "Copyright hoogte"
+
+#~ msgid "Copyright Width"
+#~ msgstr "Copyright breedte"
+
+#~ msgid "Copyright Text"
+#~ msgstr "Copyright tekst"
+
+#~ msgid "Insert the copyright text (Inlcuding HTML tags)"
+#~ msgstr "De URL waar de auteursrechtentekst naar verwijst."
+
+#~ msgid "enter your text here..."
+#~ msgstr "Voer uw tekst in..."
+
+#~ msgid "Use Sidebar Options From"
+#~ msgstr "Sidebar Opties"
+
+#~ msgid "SideBar Content As"
+#~ msgstr "Zijkolom inhoud komt hier!"
+
+#~ msgid "Widgets"
+#~ msgstr "Widgets"
+
+#~ msgid "Elements Menu"
+#~ msgstr "Menu Elementen"
+
+#~ msgid "Choose Widgets Area"
+#~ msgstr "Footer Widgets Sectie"
+
+#~ msgid "Element Menu Sidebar Text"
+#~ msgstr "Menu Sidebar Hoofdpagina"
+
+#~ msgid "Restrictions"
+#~ msgstr "Beperkingen"
+
+#~ msgid "Pay as Go Plan"
+#~ msgstr "Stel dagelijkse prijsstelling Plan"
+
+#~ msgid "All Plans"
+#~ msgstr "Alle lidmaatschappen"
+
+#~ msgid "Set Payment Type Test/Live"
+#~ msgstr "Betalingstype"
+
+#~ msgid "Set Payment Type SandBox/Production"
+#~ msgstr "Betaling Type SandBox/productie instellen"
+
+#~ msgid "Select Post Type"
+#~ msgstr "Selecteer bericht type"
+
+#~ msgid "First Name"
+#~ msgstr "Voornaam"
+
+#~ msgid "New Password"
+#~ msgstr "Nieuw wachtwoord"
+
+#~ msgid "Follow/Following On Off Switch"
+#~ msgstr "Volg/volgende op uit-schakelaar"
+
+#~ msgid "Update your profile picture"
+#~ msgstr "Bijwerken van uw profielfoto"
+
+#~ msgid "The Google reCAPTCHA check failed. Are you a robot?"
+#~ msgstr "reCAPTCHA check error. "
+
+#~ msgid "reCAPTCHA site key"
+#~ msgstr "ReCaptcha Site sleutel"
+
+#~ msgid "reCAPTCHA secret key"
+#~ msgstr "ReCaptcha geheime sleutel"
+
+#~ msgid "Social Links:"
+#~ msgstr "Sociale links"
+
+#~ msgid "All Reviews"
+#~ msgstr "Alle beoordelingen"
+
+#~ msgid "A Plugin to integrate payments gateway in wordpress"
+#~ msgstr "hoe betalingsgateway integreren in Java"
+
+#~ msgid "redqteam"
+#~ msgstr "redqteam"

@@ -1,0 +1,524 @@
+.wrapper {
+	margin: 5em auto;
+	margin-left: 240px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
+.hide-nav {
+	.wrapper {
+		margin-left: 0;
+	}
+}
+
+button.closeSublistingPopUp {
+	display: none
+}
+
+.up-userplace-frontend--section {
+	&.showPopUpOverlay {
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+}
+
+.sub-btn {
+	display: inline-block;
+  padding: 12px 48px;
+	border-radius: 3px;
+	margin: 5px;
+	background-color: #efefef;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 12px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+	@media only screen and (min-width: 992px) and (max-width: 1200px) {
+		padding: 10px 30px;
+	}
+
+	i {
+		padding-right: 8px;
+		font-size: 16px;
+	}
+
+	&.sub-btn-bg {
+		border: 1px solid #407eff;
+		background-color: #407eff;
+		color: #fff;
+
+		&:hover {
+			border: 1px solid #333;
+			background-color: transparent;
+			color: #333;
+		}
+	}
+
+	&.sub-btn-o {
+		border: 1px solid #333;
+		background-color: transparent;
+		color: #333;
+	}
+
+	&:hover {
+		border: 1px solid #407eff;
+		background-color: #407eff;
+		color: #fff;
+	}
+}
+
+.rq-sublising-content-wrapper {
+	padding: 30px;
+}
+
+.rq-sublisting-top-searchbar-area {
+	.sublisting-serarch-field {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-top: 1px solid #e2e2e2;
+
+    .form-group {
+    	position: relative;
+    	margin-bottom: 0;
+
+    	input {
+    		width: 100%;
+		    height: 48px;
+		    border-radius: 3px;
+		    border: 1px solid #e2e2e2;
+		    box-shadow: none;
+		    padding-left: 38px;
+
+    		&:focus {
+    			border: 1px solid #dadada;
+    		}
+
+    		&::placeholder {
+    			color: #aaa;
+    		}
+    	}
+
+    	span {
+    		&.icon {
+    			position: absolute;
+			    top: 13px;
+			    left: 15px;
+			    font-size: 20px;
+			    color: #979797;
+    		}
+    	}
+    }
+	}
+
+	.add-sublisting-field {
+		padding: 20px;
+		button.rq-add-sublisting-btn {
+	    width: 100%;
+	    height: 48px;
+			border: 1px solid #407eff;
+			background-color: #407eff;
+	    color: #fff;
+	    font-size: 14px;
+	    outline: 0;
+	    border-radius: 3px;
+	    text-transform: uppercase;
+	    font-family: 'Open Sans', sans-serif;
+	    font-weight: 600;
+			display: -webkit-inline-box;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+	    transition: all 0.3s ease;
+			-webkit-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+
+			i.icon {
+		    font-size: 20px;
+				padding-right: 10px;
+			}
+
+	    &:hover {
+				background-color: rgba(64, 126, 255, 0.9);
+				color: #fff;
+	    }
+		}
+	}
+}
+
+.rq-sublisting-table-area {
+	.rq-sublisting-menu-wrap {
+		width: 380px;
+		height: auto;
+		max-height: 800px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		float: left;
+		background-color: #fff;
+		border: 1px solid #e2e2e2;
+
+		@media only screen and (max-width: 767px) {
+			width: 100%;
+		}
+
+		ul.rq-sublisting-menu {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			background-color: #fff;
+			display: block;
+			border-top: 1px solid #e5e5e5;
+
+			@media only screen and (max-width: 767px) {
+				overflow: hidden;
+			}
+
+			li {
+				display: block;
+
+				@media only screen and (max-width: 767px) {
+					float: none;
+					display: block;
+				}
+
+				a {
+					outline: none;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-orient: horizontal;
+					-webkit-box-direction: normal;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					-webkit-box-pack: justify;
+					-ms-flex-pack: justify;
+					justify-content: space-between;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					padding: 20px;
+					border-bottom: 1px solid #e5e5e5;
+			    font-family: 'Open Sans', sans-serif;
+			    font-weight: 600;
+			    font-size: 12px;
+			    color: #736e6e;
+			    text-transform: uppercase;
+			    transition: all 0.3s ease;
+					-webkit-transition: all 0.3s ease;
+					-ms-transition: all 0.3s ease;
+					
+					span.title {
+						span {
+							display: block;
+
+							&.date {
+								font-size: 11px;
+								font-weight: 400;
+								line-height: 1;
+							}
+						}
+					}
+
+					span.badge {
+						font-size: 11px;
+						color: #fff;
+						background-color: #bfbfbf;
+						border-radius: 2px;
+						text-transform: capitalize;
+						line-height: 12px;
+
+						&.draft {
+							background-color: #e59b01;
+						}
+
+						&.publish {
+							background-color: #7dbd38;
+						}
+					}
+				}
+
+				&:hover {
+		    	color: #505050;
+		    	background-color: #f6f6f6;
+		    }
+
+				&:last-child {
+					a {
+						border-bottom: 0;
+					}
+				}
+
+				&.active {
+					a {
+						position: relative;
+						background-color: #e7e7e7;
+						color: #505050;
+						@media only screen and (max-width: 767px)  {
+							background-color: #fff;
+							color: #736e6e;
+
+							&:hover {
+					    	color: #505050;
+					    	background-color: #f6f6f6;
+							}
+				    }
+					}
+				}
+			}
+		}
+	}
+
+	.rq-sublisting-table-content-wrap {
+		width: ~"calc(100% - 380px)";
+		float: right;
+		background-color: #fff;
+		padding: 30px;
+		height: auto;
+		max-height: 800px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		border: 1px solid #e2e2e2;
+		border-left: 0;
+
+		@media only screen and (max-width: 767px) {
+			&.showPopUp {
+				position: absolute;
+				top: 30px;
+				left: 30px;
+				z-index: 999;
+				display: block;
+				width: ~"calc(100% - 60px)";
+		    border-left: 1px solid #e2e2e2;
+
+				button.closeSublistingPopUp {
+					display: block;
+					position: absolute;
+					top: 30px;
+					right: 30px;
+					background: transparent;
+					border: 0;
+					font-size: 20px;
+					padding: 0;
+					color: #000;
+					outline: 0;
+					-webkit-transition: all 0.3s ease;
+					-ms-ransition: all 0.3s ease;
+					transition: all 0.3s ease;
+
+					&:hover {
+						color: #555;
+					}
+				}
+			}
+
+			display: none;
+		}
+
+		.sublisting-content-area {
+			.listing-details-area {
+				overflow: hidden;
+
+				h3 {
+					display: block;
+					color: #000;
+					font-size: 22px;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+					margin-top: 0;
+			    line-height: 1;
+				}
+
+				.lisiting-thumb-area {
+					width: 350px;
+					height: 300px;
+					overflow: hidden;
+					float: left;
+
+					@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+						width: 40%;
+						height: 270px;
+					}
+
+					@media only screen and (min-width: 992px) and (max-width: 1200px) {
+						width: 100%;
+						margin-bottom: 30px;
+					}
+
+					@media only screen and (min-width: 768px) and (max-width: 991px) {
+						width: 100%;
+						margin-bottom: 30px;
+					}
+
+					@media only screen and (max-width: 767px) {
+						width: 100%;
+						margin-bottom: 30px;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.lisiting-details-info {
+					width:  ~"calc(100% - 380px)";
+					float: right;
+
+					@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+						width: ~"calc(100% - 40%)";
+						box-sizing: border-box;
+						padding-left: 27px;
+					}
+
+					@media only screen and (min-width: 992px) and (max-width: 1200px) {
+				    width: 100%;
+				    float: left;
+					}
+
+					@media only screen and (min-width: 768px) and (max-width: 991px) {
+						width: 100%;
+						float: left;
+					}
+
+					@media only screen and (max-width: 767px) {
+						width: 100%;
+					}
+					
+					ul.details-meta {
+						display: block;
+						margin: 0;
+						padding: 0;
+						list-style: none;
+
+						li {
+							display: block;
+							color: #555;
+							margin-bottom: 15px;
+
+							span {
+								color: #000;
+								font-weight: 600;
+								margin-right: 20px;
+							}
+						}
+					}
+
+					.listing-actions {
+						margin-top: 20px;
+
+						a.sub-btn {
+							margin-left: 0;
+							margin-bottom: 0;
+							margin-right: 15px;
+					    display: inline-flex;
+
+							@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+						    padding: 10px 17px;
+								margin-right: 5px;
+							}
+
+							@media only screen and (min-width: 992px) and (max-width: 1200px) {
+								margin-right: 10px;
+							}
+
+							@media only screen and (max-width: 767px) {
+						    padding: 8px 18px;
+						    margin-right: 7px;
+
+						    i {
+				    	    padding-left: 4px;
+						    }
+							}
+						}
+					}
+				}
+			}
+
+			.listing-sortingtable-area {
+				margin-top: 40px;
+			}
+		}
+	}
+}
+
+.rq-sublisting-modal {
+	.modal-dialog {
+    width: 800px;
+    margin: 100px auto;
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    	width: 700px;
+    }
+
+    @media only screen and (max-width: 767px) {
+			width: 90%;
+		}
+
+		.modal-content {
+			box-shadow: none;
+			border-radius: 0;
+
+			.modal-body {
+		    padding: 15px 15px 25px;
+
+		    button.close {
+		    	outline: 0;
+		    }
+			}
+
+			.sublisting-modal-items {
+				width: 100%;
+				display: block;
+				overflow: hidden;
+
+				.sublisting-item {
+					display: block;
+			    width: ~"calc(100%/4 - 18px)";
+			    float: left;
+			    border: 1px solid #e8e8e8;
+			    margin: 9px;
+			    background-color: #f9f9f9;
+					text-align: center;
+					padding: 30px 10px;
+
+					i {
+						font-size: 16px;
+				    color: #272727;
+				    margin-bottom: 8px;
+					}
+
+			    @media only screen and (max-width: 767px) {
+						width: ~"calc(100%/2 - 18px)";
+					}
+
+					@media only screen and (min-width: 480px) and (max-width: 767px) {
+						width: ~"calc(100%/3 - 18px)";
+					}
+
+			    h4 {
+			    	text-align: center;
+						padding: 0;
+						margin: 0;
+				    font-size: 16px;
+						line-height: 1;
+	    	    font-family: 'Open Sans', sans-serif;
+			    }
+
+			    &:hover {
+						border: 1px solid #407eff;
+						background-color: #407eff;
+
+						h4, i {
+							color: #fff;
+						}
+			    }       
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,101 @@
+/*  #9 Settigns Panel */
+.scwpSettingsPannelWrapper{
+  width: 100%;
+  // overflow-y: scroll;
+
+  .scwpActionBtnsWrap{
+    padding: 20px;
+  }
+
+  .scwpFieldActionTopbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 20px;
+    border-bottom: 1px dashed #cacaca;
+
+    .scwpFieldTypeTitle{
+      font-size: @scwp-var-font-size + 4;
+      font-weight: 400;
+      color: @scwp--Color-Black-737373;
+      text-transform: capitalize;
+      margin: 0;
+      padding: 0;
+      display: block;
+      line-height: 1.2;
+      text-align: center;
+
+      span{
+        font-weight: 700;
+      }
+    }
+
+    .scwpSettingActionBtnWrapper{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-top: 0;
+
+      button.scwpSaveSettingsbtn{
+        font-size: @scwp-var-font-size;
+        font-weight: 700;
+        color: @scwp-font-white-color;
+        background-color: @scwp--Color-Black-454545;
+        line-height: 34px;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        outline: 0;
+        border: 0;
+        padding: 0 20px;
+        position: relative;
+        border: 1px solid @scwp--Color-Black-454545;
+        border-left: 0;
+        .scwp--transition;
+        .scwp--border-radius(0 5px 5px 0);
+
+        &:hover{
+          background-color: @scwp--Color-Black-454545Hover;
+        }
+
+        // &:before{
+        //   content: '\f492';
+        //   font-family: 'ionicons';
+        //   font-size: @scwp-var-font-size + 4;
+        //   color: @scwp-font-black-color;
+        //   margin-right: 10px;
+        // }
+      }
+
+      button.scwpCancelSettingsbtn{
+        font-size: @scwp-var-font-size;
+        font-weight: 700;
+        color: @scwp--Color-Black-737373;
+        background-color: @scwp-var-color-deep-blue;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 34px;
+        outline: 0;
+        border: 1px solid @scwp-var-border-colorAlt;
+        border-right: 0;
+        padding: 0px 20px;
+        position: relative;
+        .scwp--transition;
+        .scwp--border-radius(5px 0 0 5px);
+
+        &:hover{
+          background-color: darken(@scwp-var-color-deep-blue, 5%);
+        }
+      }
+    }
+  }
+
+  @import './input-fileds.less';
+}
+/* #9 End */

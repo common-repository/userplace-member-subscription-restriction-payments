@@ -1,0 +1,33 @@
+@import '../_helper/helper-css.less';
+
+.up-userplace-addon-page {
+  overflow: hidden;
+  padding: 0 15px;
+  margin-top: 20px;
+
+  h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 29px;
+  }
+
+	.up-userplace-addons-area {
+		@media only screen and (max-width: 767px) {
+			margin-right: 0;
+		}
+
+		.userplace-addons {
+			.userplace-addon-content {
+		    h2 {
+		    	color: @primary-color;
+					margin-top: 0;
+					margin-bottom: 5px;
+					font-size: 15px;
+					text-transform: capitalize;
+		    }
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+/* #10 Settigns Input */
+.scwpSettingFieldsets{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+
+  h3.scwpFiledsTitle{
+    font-size: @scwp-var-font-size;
+    font-weight: 700;
+    color: @scwp-var-title-color;
+    margin: 0 0 10px;
+    line-height: 1.2;
+  }
+
+  input.scwpFormsFieldsInput{
+    font-size: @scwp-var-font-size;
+    font-weight: 400;
+    color: @scwp-var-text-color;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+    border: 1px solid @scwp-var-ash-color;
+    overflow: hidden;
+    background-color: #ffffff;
+    .scwp--drop-shadow(none);
+    .scwp--border-radius(5px);
+    outline: 0;
+    .scwp--transition;
+  }
+  @import './loading-btn.less';
+}

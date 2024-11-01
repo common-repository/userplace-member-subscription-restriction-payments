@@ -1,0 +1,2 @@
+var USERPLACE_ADMIN = {};
+var USERPLACE_GLOBAL = {};
